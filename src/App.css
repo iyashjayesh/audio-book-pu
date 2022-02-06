@@ -58,7 +58,7 @@
   border: none;
   border-radius: 6px;
   background-color: cornflowerblue;
-  color: white;
+  color: rgb(169, 169, 169);
   cursor: pointer;
 }
 body {

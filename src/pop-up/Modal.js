@@ -1,29 +1,39 @@
 import React from "react";
 import "./Modal.css";
+import AudioPlayer from 'react-h5-audio-player';
 
-function Modal({ setOpenModal }) {
+function Modal(props) {
+  console.log(props.sholkText);
   return (
     <div className="modalBackground">
       <div className="modalContainer">
         <div className="titleCloseBtn">
           <button
             onClick={() => {
-              setOpenModal(false);
+              props.setOpenModal(false);
             }}
           >
             X
           </button>
         </div>
         <div className="title">
-          <h1>Are You Sure You Want to Continue?</h1>
+          <h1>{props.sholkText}</h1>
         </div>
         <div className="body">
-          <p>The next page looks amazing. Hope you want to go there!</p>
+                
+                <AudioPlayer
+                    // autoPlay
+                    src={props.audio}
+                    onPlay={e => console.log("onPlay")}
+                    onClickNext={e => console.log("onClickNext")}
+                    onClickPrev={e => console.log("onClickPrev")}
+                    // other props here
+                />
         </div>
         <div className="footer">
           <button
             onClick={() => {
-              setOpenModal(false);
+              props.setOpenModal(false);
             }}
             id="cancelBtn"
           >

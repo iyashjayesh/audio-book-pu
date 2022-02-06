@@ -1,24 +1,28 @@
-import React from 'react'
+import {React, useState } from 'react'
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import { Card} from 'react-bootstrap';
+import Modal from '../pop-up/Modal';
+
+
 
 const AudioCard = (props) => {
+
+    const [modalOpen, setModalOpen] = useState(false);
+
     return (
         <div>
             <Card className="audio-cardbox">
-                <h1 >{props.sholkno}</h1> 
-                <br/>
-                <h5 >{props.sholk}</h5> 
-                <br/>
-                <AudioPlayer
-                    // autoPlay
-                    src={props.audio}
-                    onPlay={e => console.log("onPlay")}
-                    onClickNext={e => console.log("onClickNext")}
-                    onClickPrev={e => console.log("onClickPrev")}
-                    // other props here
-                />
+            <h1
+                className="openModalBtn"
+                onClick={() => {
+                setModalOpen(true);
+            }}
+            >
+                {props.sholkno}
+            </h1>
+
+            {modalOpen && <Modal sholkText={props.sholk} setOpenModal={setModalOpen} audio={props.audio}/>}
             </Card>
         </div>
     )
