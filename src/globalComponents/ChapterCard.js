@@ -5,7 +5,7 @@ import '../App.css';
 
 const Chaptercard = (props) => {
     return (
-        <div className="container">
+        <div className="container center p-2">
                 <Card className="cardbox">
                     <Link to={props.path1}>
                         <Card.Img variant="top" src={props.img1} />

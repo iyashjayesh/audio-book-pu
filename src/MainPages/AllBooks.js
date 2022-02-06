@@ -10,7 +10,7 @@ const AllBooks = () => {
     return (
         <div>
             <div className="conatiner text-center mt-3">
-                <h1><strong>List of Sthana | अध्याय</strong></h1>
+                <h1><strong>List of Sthana </strong></h1>
             </div>
                     {/* <NavDropdown.Divider />sutrasthana,sutrasthana,vimanasthana,shareerasthana */}
 

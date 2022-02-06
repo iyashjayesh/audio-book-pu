@@ -11,7 +11,7 @@ function Home() {
         <div className="chapter">
             <Slider/>
             <div className="conatiner text-center mt-3">
-                <h1><strong>List of Sthana | अध्याय</strong></h1>
+                <h1><strong>List of Sthana</strong></h1>
             </div>
             <BookList img1={book1} path1="/sutrasthana" img2={book2} path2="/sutrasthana"/>
             <BookList img1={book3} path1="/vimanasthana" img2={book4} path2="/shareerasthana"/>
