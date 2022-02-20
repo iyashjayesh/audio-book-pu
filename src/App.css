@@ -73,3 +73,18 @@ body {
   padding: 0;
   margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .card-img, .card-img-bottom, .card-img-top {
+    width: 240px;
+    height: 300px;
+  }
+  
+  .cardbox{
+    width: 240px;
+    margin: 20px;
+    display: inline-block;
+  }
+
+}
