@@ -21,7 +21,7 @@ const Header = () => {
                 </NavDropdown>
                 </Nav>
                 <Nav>
-                <Nav.Link href="/all-books">Chapters</Nav.Link>
+                {/* <Nav.Link href="/all-books">Chapters</Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
