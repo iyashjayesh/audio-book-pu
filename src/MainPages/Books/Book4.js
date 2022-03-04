@@ -10,7 +10,7 @@ const Book4 = () => {
     return (
         <div>
             <BookSlider img={sliderImg} />
-            <ChaptercardThree text1="ch1" path1="/shareerasthana/chapter1" text2="ch2" path2="/" text3="ch1" path3="/"/>
+            <ChaptercardThree text1="Chapter 1" path1="/shareerasthana/chapter1" text2="Chapter 2" path2="/" text3="Chapter 3" path3="/"/>
             {/* <ChaptercardThree text1="testch" path1="/testch" text2="ch1" path2="/" text3="ch1" path3="/"/> */}
         </div>
     )
