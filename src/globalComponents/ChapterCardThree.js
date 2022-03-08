@@ -20,7 +20,7 @@ const Chaptercard = (props) => {
                 </Card>
                 <Card className="cardbox3">
                     <Link to={props.path3}>
-                        <h1>{props.text1}</h1>
+                        <h1>{props.text3}</h1>
                         {/* <Card.Img variant="top" src={props.img3} /> */}
                     </Link>
                 </Card>
