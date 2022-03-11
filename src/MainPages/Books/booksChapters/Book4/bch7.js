@@ -1,20 +1,21 @@
 import React from 'react'
 import BookSlider from '../../../../localComponents/BookSlider'
-import r1 from '../../../../assests/Audio/book4audio/ch7/7s1.acc'
-import r2 from '../../../../assests/Audio/book4audio/ch7/7s2.acc'
-import r3 from '../../../../assests/Audio/book4audio/ch7/7s3.acc'
-import r4 from '../../../../assests/Audio/book4audio/ch7/7s4.acc'
-import r5 from '../../../../assests/Audio/book4audio/ch7/7s5.acc'
-import r6 from '../../../../assests/Audio/book4audio/ch7/7s6.acc'
-import r7 from '../../../../assests/Audio/book4audio/ch7/7s7.acc'
-import r8 from '../../../../assests/Audio/book4audio/ch7/7s8.acc'
-import r9 from '../../../../assests/Audio/book4audio/ch7/7s9.acc'
-import r10 from '../../../../assests/Audio/book4audio/ch7/7s10.acc'
-import r11 from '../../../../assests/Audio/book4audio/ch7/7s11.acc'
-import r12 from '../../../../assests/Audio/book4audio/ch7/7s12.acc'
-import r13 from '../../../../assests/Audio/book4audio/ch7/7s13.acc'
-import r14 from '../../../../assests/Audio/book4audio/ch7/7s14.acc'
-import r15 from '../../../../assests/Audio/book4audio/ch7/7s15.acc'
+
+import r1 from '../../../../assests/Audio/book4audio/ch7/7s1.aac'
+import r2 from '../../../../assests/Audio/book4audio/ch7/7s2.aac'
+import r3 from '../../../../assests/Audio/book4audio/ch7/7s3.aac'
+import r4 from '../../../../assests/Audio/book4audio/ch7/7s4.aac'
+import r5 from '../../../../assests/Audio/book4audio/ch7/7s5.aac'
+import r6 from '../../../../assests/Audio/book4audio/ch7/7s6.aac'
+import r7 from '../../../../assests/Audio/book4audio/ch7/7s7.aac'
+import r8 from '../../../../assests/Audio/book4audio/ch7/7s8.aac'
+import r9 from '../../../../assests/Audio/book4audio/ch7/7s9.aac'
+import r10 from '../../../../assests/Audio/book4audio/ch7/7s10.aac'
+import r11 from '../../../../assests/Audio/book4audio/ch7/7s11.aac'
+import r12 from '../../../../assests/Audio/book4audio/ch7/7s12.aac'
+import r13 from '../../../../assests/Audio/book4audio/ch7/7s13.aac'
+import r14 from '../../../../assests/Audio/book4audio/ch7/7s14.aac'
+import r15 from '../../../../assests/Audio/book4audio/ch7/7s15.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/7.png'
@@ -24,21 +25,21 @@ const Book4ch7 = () => {
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
-                <SingleAudioCard sholkno="Shloka 1" sholk="" audio={r1}/>
-                <SingleAudioCard sholkno="Shloka 2" sholk="" audio={r2}/>
-                <SingleAudioCard sholkno="Shloka 3" sholk="" audio={r3}/>
-                <SingleAudioCard sholkno="Shloka 4" sholk="" audio={r4}/>
-                <SingleAudioCard sholkno="Shloka 5" sholk="" audio={r5}/>
-                <SingleAudioCard sholkno="Shloka 6" sholk="" audio={r6}/>
-                <SingleAudioCard sholkno="Shloka 7" sholk="" audio={r7}/>
-                <SingleAudioCard sholkno="Shloka 8" sholk="" audio={r8}/>
-                <SingleAudioCard sholkno="Shloka 9" sholk="" audio={r9}/>
-                <SingleAudioCard sholkno="Shloka 10" sholk="" audio={r10}/>
-                <SingleAudioCard sholkno="Shloka 11" sholk="" audio={r11}/>
-                <SingleAudioCard sholkno="Shloka 12" sholk="" audio={r12}/>
-                <SingleAudioCard sholkno="Shloka 13" sholk="" audio={r13}/>
-                <SingleAudioCard sholkno="Shloka 14" sholk="" audio={r14}/>
-                <SingleAudioCard sholkno="Shloka 15" sholk="" audio={r15}/>
+                <SingleAudioCard sholkno="Shloka 1" sholk="अथातः शरीरसङ्ख्याशारीरं व्याख्यास्यामः||१||" audio={r1}/>
+                <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२|| " audio={r2}/>
+                <SingleAudioCard sholkno="Shloka 3" sholk="शरीरसङ्ख्यामवयवशः कृत्स्नं शरीरं प्रविभज्य सर्वशरीरसङ्ख्यानप्रमाणज्ञानहेतोर्भगवन्तमात्रेयमग्निवेशः पप्रच्छ||३||" audio={r3}/>
+                <SingleAudioCard sholkno="Shloka 4" sholk="तमुवाच भगवानात्रेयः- शृणु मत्तोऽग्निवेश! सर्वशरीरमाचक्षाणस्य यथा प्रश्नमेकमना यथावत्| शरीरे षट् त्वचः; तद्यथा- उदकधरा त्वग्बाह्या, द्वितीया त्वसृग्धरा, तृतीया सिध्मकिलाससम्भवाधिष्ठाना, चतुर्थी दद्रूकुष्ठसम्भवाधिष्ठाना, पञ्चमी त्वलजीविद्रधिसम्भवाधिष्ठाना, षष्ठी तु यस्यां छिन्नायां ताम्यत्यन्ध इव च तमः प्रविशति यां चाप्यधिष्ठायारूंषि जायन्ते पर्वसु कृष्णरक्तानि स्थूलमूलानि दुश्चिकित्स्यतमानि च; इति षट् त्वचः| एताः षडङ्गं शरीरमवतत्य तिष्ठन्ति||४||" audio={r4}/>
+                <SingleAudioCard sholkno="Shloka 5" sholk="तत्रायं शरीरस्याङ्गविभागः; तद्यथा- द्वौ बाहू, द्वे सक्थिनी, शिरोग्रीवम्, अन्तराधिः, इति षडङ्गमङ्गम्||५||" audio={r5}/>
+                <SingleAudioCard sholkno="Shloka 6" sholk="त्रीणि सषष्टीनि शतान्यस्थ्नां सह दन्तोलूखलनखेन| तद्यथा- द्वात्रिंशद्दन्ताः, द्वात्रिंशद्दन्तोलूखलानि, विंशतिर्नखाः, षष्टिः पाणिपादाङ्गुल्यस्थीनि, विंशतिः पाणिपादशलाकाः, चत्वारि पाणिपादशलाकाधिष्ठानानि, द्वे पार्ष्ण्योरस्थिनी, चत्वारः पादयोर्गुल्फाः, द्वौ मणिकौ हस्तयोः, चत्वार्यरत्न्योरस्थीनि, चत्वारि जङ्घयोः, द्वे जानुनी, द्वे जानुकपालिके, द्वावूरुनलकौ, द्वौ बाहुनलकौ, द्वावंसौ, द्वे अंसफलके, द्वावक्षकौ, एकं जत्रु, द्वे तालुके, द्वे श्रोणिफलके, एकं भगास्थि, पञ्चचत्वारिंशत् पृष्ठगतान्यस्थीनि, पञ्चदश ग्रीवायां, चतुर्दशोरसि, द्वयोः पार्श्वयोश्चतुर्विंशतिः पर्शुकाः, तावन्ति स्थालकानि, तावन्ति चैव स्थालकार्बुदानि, एकं हन्वस्थि, द्वे हनुमूलबन्धने, एकास्थि नासिकागण्डकूटललाटं, द्वौ शङ्खौ, चत्वारि शिरःकपालानीति; एवं त्रीणि सषष्टीनि शतान्यस्थ्नां सह दन्तोलूखलनखेनेति||६||" audio={r6}/>
+                <SingleAudioCard sholkno="Shloka 7" sholk="पञ्चेन्द्रियाधिष्ठानानि; तद्यथा- त्वग्, जिह्वा, नासिका, अक्षिणी, कर्णौ च| पञ्च बुद्धीन्द्रियाणि; तद्यथा- स्पर्शनं, रसनं, घ्राणं, दर्शनं, श्रोत्रमिति| पञ्च कर्मेन्द्रियाणि; तद्यथा- हस्तौ, पादौ, पायुः, उपस्थः, जिह्वा चेति||७|| " audio={r7}/>
+                <SingleAudioCard sholkno="Shloka 8" sholk="हृदयं चेतनाधिष्ठानमेकम्||८||" audio={r8}/>
+                <SingleAudioCard sholkno="Shloka 9" sholk="दश प्राणायतनानि; तद्यथा- मूर्धा, कण्ठः, हृदयं, नाभिः, गुदं, बस्तिः, ओजः, शुक्रं, शोणितं, मांसमिति| तेषु षट् पूर्वाणि मर्मसङ्ख्यातानि||९||" audio={r9}/>
+                <SingleAudioCard sholkno="Shloka 10" sholk="पञ्चदश कोष्ठाङ्गानि; तद्यथा- नाभिश्च, हृदयं च, क्लोम च, यकृच्च, प्लीहा च, वृक्कौ च, बस्तिश्च, पुरीषाधारश्च, आमाशयश्च, पक्वाशयश्च, उत्तरगुदं च, अधरगुदं च, क्षुद्रान्त्रं च, स्थूलान्त्रं च, वपावहनं चेति||१०||" audio={r10}/>
+                <SingleAudioCard sholkno="Shloka 11" sholk="षट्पञ्चाशत् प्रत्यङ्गानि षट्स्वङ्गेषूपनिबद्धानि, यान्यपरिसङ्ख्यातानि पूर्वमङ्गेषु परिसङ्ख्यायमानेषु, तान्यन्यैः पर्यायैरिह प्रकाश्यानि भवन्ति| तद्यथा- द्वे जङ्घापिण्डिके, द्वे ऊरुपिण्डिके, द्वौ स्फिचौ, द्वौ वृषणौ, एकं शेफः, द्वे उखे, द्वौ वङ्क्षणौ, द्वौ कुकुन्दरौ, एकं बस्तिशीर्षम्, एकमुदरं, द्वौ स्तनौ, द्वौ श्लेष्मभुवौ , द्वे बाहुपिण्डिके, चिबुकमेकं, द्वावोष्ठौ, द्वे सृक्कण्यौ, द्वौ दन्तवेष्टकौ, एकं तालु, एका गलशुण्डिका, द्वे उपजिह्विके, एका गोजिह्विका, द्वौ गण्डौ, द्वे कर्णशष्कुलिके, द्वौ कर्णपुत्रकौ, द्वे अक्षिकूटे, चत्वार्यक्षिवर्त्मानि, द्वे अक्षिकनीनिके, द्वे भ्रुवौ, एकाऽवटुः, चत्वारि पाणिपादहृदयानि||११||" audio={r11}/>
+                <SingleAudioCard sholkno="Shloka 12" sholk="नव महन्ति छिद्राणि- सप्त शिरसि, द्वे चाधः||१२|| " audio={r12}/>
+                <SingleAudioCard sholkno="Shloka 13" sholk="एतावद्दृश्यं शक्यमपि निर्देष्टुम्||१३||" audio={r13}/>
+                <SingleAudioCard sholkno="Shloka 14" sholk="अनिर्देश्यमतः परं तर्क्यमेव| तद्यथा- नव स्नायुशतानि, सप्त सिराशतानि, द्वे धमनीशते, चत्वारि पेशीशतानि, सप्तोत्तरं मर्मशतं, द्वे सन्धिशते, एकोनत्रिंशत्सहस्राणि नव च शतानि षट्पञ्चाशत्कानि सिराधमनीनामणुशः प्रविभज्यमानानां मुखाग्रपरिमाणं, तावन्ति चैव केशश्मश्रुलोमानीति| एतद्यथावत्सङ्ख्यातं त्वक्प्रभृति दृश्यं, तर्क्यमतः परम्| एतदुभयमपि न विकल्पते, प्रकृतिभावाच्छरीरस्य||१४||" audio={r14}/>
+                <SingleAudioCard sholkno="Shloka 15" sholk="यत्त्वञ्जलिसङ्ख्येयं तदुपदेक्ष्यामः; तत् परं प्रमाणमभिज्ञेयं, तच्च वृद्धिह्रासयोगि, तर्क्यमेव| तद्यथा- दशोदकस्याञ्जलयः शरीरे स्वेनाञ्जलिप्रमाणेन, यत्तु प्रच्यवमानं पुरीषमनुबध्नात्यतियोगेन तथा मूत्रं रुधिरमन्यांश्च शरीरधातून्, यत्तु सर्वशरीरचरं बाह्या त्वग्बिभर्ति, यत्तु त्वगन्तरे व्रणगतं लसीकाशब्दं लभते, यच्चोष्मणाऽनुबद्धं लोमकूपेभ्यो निष्पतत् स्वेदशब्दमवाप्नोति, तदुदकं दशाञ्जलिप्रमाणं; नवाञ्जलयः पूर्वस्याहारपरिणामधातोः, यं ‘रस’ इत्याचक्षते; अष्टौ शोणितस्य, सप्त पुरीषस्य, षट् श्लेष्मणः, पञ्च पित्तस्य, चत्वारो मूत्रस्य, त्रयो वसायाः, द्वौ मेदसः, एको मज्जायाः, मस्तिष्कस्यार्धाञ्जलिः , शुक्रस्य तावदेव प्रमाणं, तावदेव श्लैष्मिकस्यौजस इति| एतच्छरीरतत्त्वमुक्तम्||१५||" audio={r15}/>
                 
             </div>
         </div>

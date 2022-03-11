@@ -10,7 +10,9 @@ import Book4ch2 from './MainPages/Books/booksChapters/Book4/bch2'
 import Book4ch3 from './MainPages/Books/booksChapters/Book4/bch3'
 import Book4ch4 from './MainPages/Books/booksChapters/Book4/bch4'
 import Book4ch5 from './MainPages/Books/booksChapters/Book4/bch5'
-// import Book4ch6 from './MainPages/Books/booksChapters/Book4/bch6'
+import Book4ch6 from './MainPages/Books/booksChapters/Book4/bch6'
+import Book4ch7 from './MainPages/Books/booksChapters/Book4/bch7'
+import Book4ch8 from './MainPages/Books/booksChapters/Book4/bch8'
 import Book2 from './MainPages/Books/Book2'
 
 function App() {
@@ -31,9 +33,9 @@ function App() {
         <Route path="/shareerasthana/chapter3" element={<Book4ch3 />} />
         <Route path="/shareerasthana/chapter4" element={<Book4ch4 />} />
         <Route path="/shareerasthana/chapter5" element={<Book4ch5 />} />
-        {/* <Route path="/shareerasthana/chapter6" element={<Book4ch6 />} /> */}
-        {/* <Route path="/shareerasthana/chapter7" element={<Book4ch7 />} />
-        <Route path="/shareerasthana/chapter8" element={<Book4ch8 />} /> */}
+        <Route path="/shareerasthana/chapter6" element={<Book4ch6 />} /> 
+        <Route path="/shareerasthana/chapter7" element={<Book4ch7 />} />
+        <Route path="/shareerasthana/chapter8" element={<Book4ch8 />} />
       </Routes>
     </Router>
   )
