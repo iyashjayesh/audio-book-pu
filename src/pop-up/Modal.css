@@ -27,6 +27,7 @@
     text-align: center;
     margin-top: 10px;
     overflow: scroll;
+    height: 203px;
   }
   
   .titleCloseBtn {

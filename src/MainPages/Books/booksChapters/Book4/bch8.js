@@ -69,6 +69,8 @@ import r66 from '../../../../assests/Audio/book4audio/ch8/8S66.aac'
 import r67 from '../../../../assests/Audio/book4audio/ch8/8S67.aac'
 import r68 from '../../../../assests/Audio/book4audio/ch8/8S68.aac'
 import r69 from '../../../../assests/Audio/book4audio/ch8/8S69.aac'
+import r70 from '../../../../assests/Audio/book4audio/ch8/last.aac'
+import r71 from '../../../../assests/Audio/book4audio/ch8/last1.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/8.png'
@@ -147,6 +149,8 @@ const Book4ch8 = () => {
                 <SingleAudioCard sholkno="Shloka 67" sholk="इति पुत्राशिषां समृद्धिकरं कर्म व्याख्यातम्| तदाचरन् यथोक्तैर्विधिभिः पूजां यथेष्टं लभतेऽनसूयक इति||६७|| " audio={r67}/>
                 <SingleAudioCard sholkno="Shloka 68" sholk="तत्र श्लोकौ- पुत्राशिषां कर्म समृद्धिकारकं यदुक्तमेतन्महदर्थसंहितम्| तदाचरन् ज्ञो विधिभिर्यथातथं पूजां यथेष्टं लभतेऽनसूयकः||६८|| " audio={r68}/>
                 <SingleAudioCard sholkno="Shloka 69" sholk="शरीरं चिन्त्यते सर्वं दैवमानुषसम्पदा| सर्वभावैर्यतस्तस्माच्छारीरं स्थानमुच्यते||६९||" audio={r69}/>
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते शारीरस्थाने जातिसूत्रीयं शारीरं नामाष्टमोऽध्यायः||८||" audio={r70}/>
+                <SingleAudioCard sholkno="Last Shloka" sholk="शारीरस्थानं सम्पूर्णम्|" audio={r71}/>
 
             </div>
         </div>

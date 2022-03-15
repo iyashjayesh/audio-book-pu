@@ -157,6 +157,8 @@ import r154 from '../../../../assests/Audio/book4audio/ch1/C1S154.aac'
 import r155 from '../../../../assests/Audio/book4audio/ch1/C1S155.aac'
 import r156 from '../../../../assests/Audio/book4audio/ch1/C1S156.aac'
 import r157 from '../../../../assests/Audio/book4audio/ch1/C1S157.aac'
+import r158 from '../../../../assests/Audio/book4audio/ch1/last.aac'
+// import r159 from '../../../../assests/Audio/book4audio/ch1/'
 
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
@@ -327,6 +329,7 @@ const Book4ch1 = () => {
                 <SingleAudioCard sholkno="Shloka 155" sholk="अतः परं ब्रह्मभूतो भूतात्मा नोपलभ्यते| निःसृतः सर्वभावेभ्यश्चिह्नं यस्य न विद्यते||१५५||" audio={r155}/>
                 <SingleAudioCard sholkno="Shloka 156" sholk="गतिर्ब्रह्मविदां ब्रह्म तच्चाक्षरमलक्षणम्। ज्ञानं ब्रह्मविदां चात्र नाज्ञस्तज्ज्ञातुमर्हति||१५६||" audio={r156}/>
                 <SingleAudioCard sholkno="Shloka 157" sholk="तत्र श्लोकः- प्रश्नाः पुरुषमाश्रित्य त्रयोविंशतिरुत्तमाः| कतिधापुरुषीयेऽस्मिन्निर्णीतास्तत्त्वदर्शिना||१५७||" audio={r157}/>
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते शारीरस्थाने कतिधापुरुषीयं शारीरं नाम प्रथमोऽध्यायः||१||" audio={r158}/>
                 
             </div>
         </div>
@@ -338,3 +341,4 @@ export default Book4ch1
 
 
 
+ 

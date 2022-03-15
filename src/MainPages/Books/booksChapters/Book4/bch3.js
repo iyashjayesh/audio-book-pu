@@ -4,12 +4,12 @@ import r1 from '../../../../assests/Audio/book4audio/ch3/C3s1.aac'
 import r2 from '../../../../assests/Audio/book4audio/ch3/c3S2.aac'
 import r3 from '../../../../assests/Audio/book4audio/ch3/c3S3.aac'
 import r4 from '../../../../assests/Audio/book4audio/ch3/c3S4.aac'
-import r4_1 from '../../../../assests/Audio/book4audio/ch3/c3S4.aac'
-import r4_2 from '../../../../assests/Audio/book4audio/ch3/c3S4.aac'
-import r4_3 from '../../../../assests/Audio/book4audio/ch3/c3S4.aac'
-import r4_4 from '../../../../assests/Audio/book4audio/ch3/c3S4.aac'
-import r4_5 from '../../../../assests/Audio/book4audio/ch3/c3S4.aac'
-import r4_6 from '../../../../assests/Audio/book4audio/ch3/c3S4.aac'
+import r4_1 from '../../../../assests/Audio/book4audio/ch3/c3s4(1).aac'
+import r4_2 from '../../../../assests/Audio/book4audio/ch3/c3s4(2).aac'
+import r4_3 from '../../../../assests/Audio/book4audio/ch3/c3s4(3).aac'
+import r4_4 from '../../../../assests/Audio/book4audio/ch3/c3s4(4).aac'
+import r4_5 from '../../../../assests/Audio/book4audio/ch3/c3s4(5).aac'
+import r4_6 from '../../../../assests/Audio/book4audio/ch3/c3s4(6).aac'
 import r5 from '../../../../assests/Audio/book4audio/ch3/c3S5.aac'
 import r6 from '../../../../assests/Audio/book4audio/ch3/c3S6.aac'
 import r7 from '../../../../assests/Audio/book4audio/ch3/c3S7.aac'
@@ -33,6 +33,7 @@ import r24 from '../../../../assests/Audio/book4audio/ch3/c3S24.aac'
 import r25 from '../../../../assests/Audio/book4audio/ch3/c3S25.aac'
 import r26 from '../../../../assests/Audio/book4audio/ch3/c3s26.aac'
 import r27 from '../../../../assests/Audio/book4audio/ch3/c3s27.aac'
+import r28 from '../../../../assests/Audio/book4audio/ch3/last.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/3.png'
@@ -45,13 +46,13 @@ const Book4ch3 = () => {
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातः खुड्डिकां गर्भावक्रान्तिं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="पुरुषस्यानुपहतरेतसः स्त्रियाश्चाप्रदुष्टयोनिशोणितगर्भाशयाया यदा भवति संसर्गः ऋतुकाले, यदा चानयोस्तथायुक्ते संसर्गेशुक्रशोणितसंसर्गमन्तर्गर्भाशयगतं जीवोऽवक्रामति सत्त्वसम्प्रयोगात्तदा गर्भोऽभिनिर्वतेते, स सात्म्यरसोपयोगादरोगोऽभिवर्धते सम्यगुपचारैश्चोपचर्यमाणः, ततः प्राप्तकालः सर्वेन्द्रियोपपन्नः परिपूर्णशरीरो बलवर्णसत्त्वसंहननसम्पदुपेतः सुखेन जायतेसमुदयादेषां भावानां-मातृजश्चायं गर्भः पितृजश्चात्मजश्च सात्म्यजश्च रसजश्च, अस्ति च खलु सत्त्वमौपपादुकमिति होवाच भगवानात्रेयः||३||" audio={r3}/>
-                <SingleAudioCard sholkno="Shloka 4" sholk="तस्मादेतद्ब्रूमहे- अमातृजश्चायं गर्भोऽपितृजश्चानात्मजश्चासात्म्यजश्चारसजश्च, न चास्ति सत्त्वमौपपादुकमिति (होवाच भरद्वाजः)||४||" audio={r4}/>
                 <SingleAudioCard sholkno="Shloka 4(1)" sholk="नेति भरद्वाजः, किं कारणं- न हि माता न पिता नात्मा न सात्म्यं न पानाशनभक्ष्यलेह्योपयोगा गर्भं जनयन्ति, न चपरलोकादेत्य गर्भं सत्त्वमवक्रामति (१)|४|" audio={r4_1}/>
                 <SingleAudioCard sholkno="Shloka 4(2)" sholk="यदि हि मातापितरौ गर्भं जनयेतां, भूयस्यः स्त्रियः पुमांसश्च भूयांसः पुत्रकामाः, ते सर्वे पुत्रजन्माभिसन्धायमैथुनधर्ममापद्यमानाः पुत्रानेव जनयेयुर्दुहितॄर्वा दुहितृकामाः, न तु काश्चित् स्त्रियः केचिद्वा पुरुषा निरपत्याः स्युरपत्यकामा वा परिदेवेरन् (२)|४|" audio={r4_2}/>
                 <SingleAudioCard sholkno="Shloka 4(3)" sholk="न चात्माऽऽत्मानं जनयति| यदि ह्यात्माऽऽत्मानं जनयेज्जातो वा जनयेदात्मानमजातो वा, तच्चोभयथाऽप्ययुक्तम्| न हि जातो जनयति सत्त्वात्, न चाजातो जनयत्यसत्त्वात्, तस्मादुभयथाऽप्यनुपपत्तिः| तिष्ठतु तावदेतत्| यद्ययमात्माऽऽत्मानं शक्तो जनयितुं स्यात्, न त्वेनमिष्टास्वेव कथं योनिषु जनयेद्वशिनमप्रतिहतगतिं कामरूपिणंतेजोबलजववर्णसत्त्वसंहननसमुदितमजरमरुजममरम्; एवंविधं ह्यात्माऽऽत्मानमिच्छत्यतो वा भूयः (३)|४|" audio={r4_3}/>
                 <SingleAudioCard sholkno="Shloka 4(4)" sholk="असात्म्यजश्चायं गर्भः| यदि हि सात्म्यजःस्यात्, तर्हि सात्म्यसेविनामेवैकान्तेन प्रजा स्यात्, असात्म्यसेविनश्च निखिलेनानपत्याः स्युः,तच्चोभयमुभयत्रैव दृश्यते (४)|४|" audio={r4_4}/>
                 <SingleAudioCard sholkno="Shloka 4(5)" sholk="अरसजश्चायं गर्भः| यदि हि रसजः स्यात्, न केचित् स्त्रीपुरुषेष्वनपत्याः स्युः, न हि कश्चिदस्त्येषां यो रसान्नोपयुङ्क्ते; श्रेष्ठरसोपयोगिनांचेद्गर्भा जायन्त इत्यभिप्रेतमिति, एवं सत्याजौरभ्रमार्गमायूरगोक्षीरदधिघृतमधुतैलसैन्धवेक्षुरसमुद्गशालिभृतानामेवैकान्तेनप्रजा स्यात्, श्यामाकवरकोद्दालककोरदूषककन्दमूलभक्षाश्च निखिलेनानपत्याः स्युः, तच्चोभयमुभयत्र दृश्यते (५)|४|" audio={r4_5}/>
                 <SingleAudioCard sholkno="Shloka 4(6)" sholk="न खल्वपि परलोकादेत्य सत्त्वं गर्भमवक्रामति; यदि ह्येनमवक्रामेत्, नास्य किञ्चित् पौर्वदेहिकं स्यादविदितमश्रुतमदृष्टं वा, स च तच्च न किञ्चिदपि स्मरति (६)||४|| " audio={r4_6}/>
+                <SingleAudioCard sholkno="Shloka 4" sholk="तस्मादेतद्ब्रूमहे- अमातृजश्चायं गर्भोऽपितृजश्चानात्मजश्चासात्म्यजश्चारसजश्च, न चास्ति सत्त्वमौपपादुकमिति (होवाच भरद्वाजः)||४||" audio={r4}/>
                 <SingleAudioCard sholkno="Shloka 5" sholk="नेति भगवानात्रेयः, सर्वेभ्य एभ्यो भावेभ्यः समुदितेभ्यो गर्भोऽभिनिर्वर्तते||५||" audio={r5}/>
                 <SingleAudioCard sholkno="Shloka 6" sholk="मातृजश्चायं गर्भः| न हि मातुर्विना गर्भोत्पत्तिः स्यात्, न च जन्म जरायुजानाम्| यानि खल्वस्य गर्भस्य मातृजानि, यानि चास्य मातृतः सम्भवतः सम्भवन्ति, तान्यनुव्याख्यास्यामः; तद्यथा- त्वक्चलोहितं च मांसं च मेदश्च नाभिश्च हृदयं च क्लोम च यकृच्च प्लीहा च वृक्कौ च बस्तिश्च पुरीषाधानं चामाशयश्चपक्वाशयश्चोत्तरगुदं चाधरगुदं च क्षुद्रान्त्रं च स्थूलान्त्रं च वपा च वपावहनं चेति (मातृजानि)||६||" audio={r6}/>
                 <SingleAudioCard sholkno="Shloka 7" sholk="पितृजश्चायं गर्भः| नहि पितुरृते गर्भोत्पत्तिः स्यात्, न च जन्म जरायुजानाम्| यानि खल्वस्य गर्भस्य पितृजानि, यानि चास्य पितृतः सम्भवतः सम्भवन्ति, तान्यनुव्याख्यास्यामः; तद्यथा-केशश्मश्रुनखलोमदन्तास्थिसिरास्नायुधमन्यः शुक्रं चेति (पितृजानि)||७||" audio={r7}/>
@@ -75,7 +76,7 @@ const Book4ch3 = () => {
                 <SingleAudioCard sholkno="Shloka 25" sholk="तस्माज्ज्ञः प्रकृतिश्चात्मा द्रष्टा कारणमेव च| सर्वमेतद्भरद्वाज निर्णीतं जहि संशयम्||२५||" audio={r25}/>
                 <SingleAudioCard sholkno="Shloka 26" sholk="तत्र श्लोकौ- हेतुर्गर्भस्य निर्वृत्तौ वृद्धौ जन्मनि चैव यः| पुनर्वसुमतिर्या च भरद्वाजमतिश्च या||२६||" audio={r26}/>
                 <SingleAudioCard sholkno="Shloka 27" sholk="प्रतिज्ञाप्रतिषेधश्च विशदश्चात्मनिर्णयः| गर्भावक्रान्तिमुद्दिश्य खुड्डीकां तत्प्रकाशितम्||२७||" audio={r27}/>
-                {/* <SingleAudioCard sholkno="Shloka 28" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते शारीरस्थाने खुड्डीकागर्भावक्रान्तिशारीरं नाम तृतीयोऽध्यायः||३||" audio={r28}/> */}
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते शारीरस्थाने खुड्डीकागर्भावक्रान्तिशारीरं नाम तृतीयोऽध्यायः||३||" audio={r28}/>
             
             </div>
         </div>

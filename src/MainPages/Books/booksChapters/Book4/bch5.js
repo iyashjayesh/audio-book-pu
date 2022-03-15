@@ -26,6 +26,7 @@ import r23 from '../../../../assests/Audio/book4audio/ch5/5s23.aac'
 import r24 from '../../../../assests/Audio/book4audio/ch5/5s24.aac'
 import r25 from '../../../../assests/Audio/book4audio/ch5/5s25.aac'
 import r26 from '../../../../assests/Audio/book4audio/ch5/5s26.aac'
+import r27 from '../../../../assests/Audio/book4audio/ch5/last.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/5.png'
@@ -61,6 +62,7 @@ const Book4ch5 = () => {
                 <SingleAudioCard sholkno="Shloka 24" sholk="एतत्तत् सौम्य! विज्ञानं यज्ज्ञात्वा मुक्तसंशयाः| मुनयः प्रशमं जग्मुर्वीतमोहरजःस्पृहाः||२४||" audio={r24}/>
                 <SingleAudioCard sholkno="Shloka 25" sholk="तत्र श्लोकौ- सप्रयोजनमुद्दिष्टं लोकस्य पुरुषस्य च| सामान्यं मूलमुत्पत्तौ निवृत्तौ मार्ग एव च||२५||" audio={r25}/>
                 <SingleAudioCard sholkno="Shloka 26" sholk="शुद्धसत्त्वसमाधानं सत्या बुद्धिश्च नैष्ठिकी| विचये पुरुषस्योक्ता निष्ठा च परमर्षिणा||२६||" audio={r26}/>
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते शारीरस्थाने पुरुषविचयशारीरं नाम पञ्चमोऽध्यायः||५||" audio={r27}/>
                 
             </div>
         </div>

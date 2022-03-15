@@ -48,6 +48,7 @@ import r45 from '../../../../assests/Audio/book4audio/ch2/Shloka 45'
 import r46 from '../../../../assests/Audio/book4audio/ch2/Shloka 46'
 import r47 from '../../../../assests/Audio/book4audio/ch2/Shloka 47'
 import r48 from '../../../../assests/Audio/book4audio/ch2/Shloka 48'
+import r49 from '../../../../assests/Audio/book4audio/ch2/last'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/2.png'
@@ -105,7 +106,8 @@ const Book4ch2 = () => {
                 <SingleAudioCard sholkno="Shloka 46" sholk="नरो हिताहारविहारसेवी समीक्ष्यकारी विषयेष्वसक्तः| दाता समः सत्यपरः क्षमावानाप्तोपसेवी च भवत्यरोगः||४६||" audio={r46}/>
                 <SingleAudioCard sholkno="Shloka 47" sholk="मतिर्वचः कर्म सुखानुबन्धं सत्त्वं विधेयं विशदा च बुद्धिः| ज्ञानं तपस्तत्परता च योगे यस्यास्ति तं नानुपतन्ति रोगाः||४७||" audio={r47}/>
                 <SingleAudioCard sholkno="Shloka 48" sholk="तत्र श्लोकः- इहाग्निवेशस्य महार्थयुक्तं षट्त्रिंशकं प्रश्नगणं महर्षिः| अतुल्यगोत्रे भगवान् यथावन्निर्णीतवान् ज्ञानविवर्धनार्थम्||४८||" audio={r48}/>
-
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते शारीरस्थानेऽतुल्यगोत्रीयं शारीरं नाम द्वितीयोऽध्यायः||२||" audio={r49}/>
+                
             </div>
         </div>
     )

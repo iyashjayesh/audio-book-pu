@@ -34,6 +34,7 @@ import r31 from '../../../../assests/Audio/book4audio/ch6/6s31.aac'
 import r32 from '../../../../assests/Audio/book4audio/ch6/6s32.aac'
 import r33 from '../../../../assests/Audio/book4audio/ch6/6s33.aac'
 import r34 from '../../../../assests/Audio/book4audio/ch6/6s34.aac'
+import r35 from '../../../../assests/Audio/book4audio/ch6/last.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/6.png'
@@ -77,6 +78,7 @@ const Book4ch6 = () => {
                 <SingleAudioCard sholkno="Shloka 32" sholk="वृद्धिह्रासौ यथा तेषां क्षीणानामौषधं च यत्| देहवृद्धिकरा भावा बलवृद्धिकराश्च ये||३२||" audio={r32}/>
                 <SingleAudioCard sholkno="Shloka 33" sholk="परिणामकरा भावा या च तेषां पृथक् क्रिया| मलाख्याः सम्प्रसादाख्या धातवः प्रश्न एव च||३३||" audio={r33}/>
                 <SingleAudioCard sholkno="Shloka 34" sholk="नवको निर्णयश्चास्य विधिवत् सम्प्रकाशितः| तथ्यः शरीरविचये शारीरे परमर्षिणा||३४||" audio={r34}/>
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते शारीरस्थाने शरीरविचयशारीरं नाम षष्ठोऽध्यायः||६||" audio={r35}/>
                 
             </div>
         </div>
