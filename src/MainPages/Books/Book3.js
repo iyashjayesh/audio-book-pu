@@ -1,42 +1,21 @@
-import React, { useState } from "react";
-import AudioCard from '../../globalComponents/AudioCard'
+import React from "react";
 import ChaptercardThree from '../../globalComponents/ChapterCardThree'
 import BookSlider from '../../localComponents/BookSlider'
-import book1 from '../../assests/book-ch-img/Audio-Book-PU/sutrasthana/1.png'
-import book2 from '../../assests/book-ch-img/Audio-Book-PU/sutrasthana/2.png'
-import book3 from '../../assests/book-ch-img/Audio-Book-PU/sutrasthana/3.png'
 
-import sliderImg from '../../assests/BookLong/Sutrasthana1.png'
-
-import Modal from '../../pop-up/Modal'
+import sliderImg from '../../assests/BookLong/Vimanasthana-1.png'
 import '../../App.css';
-
-import r1 from './C1S1.aac'
 
 const Book3 = () => {
 
-    const [modalOpen, setModalOpen] = useState(false);
-
     return (
-        <div className="popup">
+        <div>
             <BookSlider img={sliderImg} />
-            {/* <ChaptercardThree img1={book1} path1="/sutrasthana/chapter1" img2={book2} path2="/" img3={book3} path3="/"/> */}
-            <ChaptercardThree text1="ch1" path1="/sutrasthana/chapter1" text2="ch1" path2="/" text3="ch1" path3="/"/>
-            <ChaptercardThree text1="testch" path1="/testch" text2="ch1" path2="/" text3="ch1" path3="/"/>
-            <AudioCard audio={r1}/>  
-            <button
-                className="openModalBtn"
-                to="/testch"
-                onClick={() => {
-                setModalOpen(true);
-            }}
-            >
-                Open
-            </button>
-
-            {modalOpen && <Modal setOpenModal={setModalOpen} />}
+            <ChaptercardThree text1="Chapter 1 : कतिधापुरुषीयशारीरम् अध्याय" path1="/shareerasthana/chapter1" text2="Chapter 2 : अतुल्यगोत्रीयशारीरम् अध्याय" path2="/shareerasthana/chapter2" text3="Chapter 3 : खुड्डिकागर्भावक्रान्तिशारीरम् अध्याय" path3="/shareerasthana/chapter3"/>
+            <ChaptercardThree text1="Chapter 4 : महतीगर्भावक्रान्तिशारीरम् अध्याय" path1="/shareerasthana/chapter4" text2="Chapter 5 : पुरुषविचयशारीरम् अध्याय" path2="/shareerasthana/chapter5" text3="Chapter 6 : शरीरविचयशारीरम् अध्याय" path3="/shareerasthana/chapter6"/>
+            <ChaptercardThree text1="Chapter 7 : शरीरसङ्ख्याशारीरम् अध्याय" path1="/shareerasthana/chapter7" text2="Chapter 8 : जातिसूत्रीयशारीरम् अध्याय" path2="/shareerasthana/chapter8" text3="" path3="/"/>
         </div>
     )
+    
 }
 
 export default Book3
