@@ -34,7 +34,7 @@ import r30 from '../../../../assests/Audio/book1audio/ch3/C3S30'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/sutrasthana/3.png'
 
-const Book1ch2 = () => {
+const Book1ch3 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
@@ -75,7 +75,7 @@ const Book1ch2 = () => {
     )
 }
 
-export default Book1ch2
+export default Book1ch3
 
 
 

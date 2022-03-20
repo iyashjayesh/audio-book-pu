@@ -7,6 +7,9 @@ import Book1 from './MainPages/Books/Book1'
 import Book1ch1 from './MainPages/Books/booksChapters/Book1/bch1'
 import Book1ch2 from './MainPages/Books/booksChapters/Book1/bch2'
 import Book1ch3 from './MainPages/Books/booksChapters/Book1/bch3'
+import Book1ch4 from './MainPages/Books/booksChapters/Book1/bch4'
+import Book1ch5 from './MainPages/Books/booksChapters/Book1/bch5'
+import Book1ch6 from './MainPages/Books/booksChapters/Book1/bch6'
 // import Book1ch3 from './MainPages/Books/Book1/bch3'
 // import Book1ch4 from './MainPages/Books/Book1/bch4'
 // import Book1ch5 from './MainPages/Books/Book1/bch5'
@@ -47,6 +50,9 @@ function App() {
         <Route path="/sutrasthana/chapter1" element={<Book1ch1 />} />
         <Route path="/sutrasthana/chapter2" element={<Book1ch2 />} />
         <Route path="/sutrasthana/chapter3" element={<Book1ch3 />} />
+        <Route path="/sutrasthana/chapter4" element={<Book1ch4 />} />
+        <Route path="/sutrasthana/chapter5" element={<Book1ch5 />} />
+        <Route path="/sutrasthana/chapter6" element={<Book1ch6 />} />
         {/* <Route path="/sutrasthana/chapter4" element={<Book1ch4 />} /> */}
         {/* <Route path="/sutrasthana/chapter5" element={<Book1ch5 />} /> */}
         {/* <Route path="/sutrasthana/chapter6" element={<Book1ch6 />} /> */}
