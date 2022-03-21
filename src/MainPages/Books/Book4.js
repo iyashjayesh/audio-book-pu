@@ -2,7 +2,7 @@ import React from "react";
 import ChaptercardThree from '../../globalComponents/ChapterCardThree'
 import BookSlider from '../../localComponents/BookSlider'
 
-import sliderImg from '../../assests/BookLong/Shareerasthana-1.png'
+import sliderImg from '../../assests/BookLong/Vimanasthana-1.png'
 import '../../App.css';
 
 const Book4 = () => {

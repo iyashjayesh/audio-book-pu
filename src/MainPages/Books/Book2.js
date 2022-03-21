@@ -1,42 +1,21 @@
-import React, { useState } from "react";
-import AudioCard from '../../globalComponents/AudioCard'
+import React from "react";
 import ChaptercardThree from '../../globalComponents/ChapterCardThree'
 import BookSlider from '../../localComponents/BookSlider'
-import book1 from '../../assests/book-ch-img/Audio-Book-PU/sutrasthana/1.png'
-import book2 from '../../assests/book-ch-img/Audio-Book-PU/sutrasthana/2.png'
-import book3 from '../../assests/book-ch-img/Audio-Book-PU/sutrasthana/3.png'
 
 import sliderImg from '../../assests/BookLong/Nidanasthana1.png'
-
-import Modal from '../../pop-up/Modal'
 import '../../App.css';
-
-import r1 from './C1S1.aac'
 
 const Book2 = () => {
 
-    const [modalOpen, setModalOpen] = useState(false);
-
     return (
-        <div className="popup">
+        <div>
             <BookSlider img={sliderImg} />
-            {/* <ChaptercardThree img1={book1} path1="/sutrasthana/chapter1" img2={book2} path2="/" img3={book3} path3="/"/> */}
-            <ChaptercardThree text1="ch1" path1="/sutrasthana/chapter1" text2="ch1" path2="/" text3="ch1" path3="/"/>
-            <ChaptercardThree text1="testch" path1="/testch" text2="ch1" path2="/" text3="ch1" path3="/"/>
-            <AudioCard audio={r1}/>  
-            <button
-                className="openModalBtn"
-                to="/testch"
-                onClick={() => {
-                setModalOpen(true);
-            }}
-            >
-                Open
-            </button>
-
-            {modalOpen && <Modal setOpenModal={setModalOpen} />}
+            <ChaptercardThree text1="Chapter 1" path1="/nidanasthana/chapter1" text2="Chapter 2" path2="/nidanasthana/chapter2" text3="Chapter 3" path3="/nidanasthana/chapter3"/>
+            <ChaptercardThree text1="Chapter 4" path1="/nidanasthana/chapter4" text2="Chapter 5" path2="/nidanasthana/chapter5" text3="Chapter 6" path3="/nidanasthana/chapter6"/>
+            <ChaptercardThree text1="Chapter 7" path1="/nidanasthana/chapter7" text2="Chapter 8" path2="/nidanasthana/chapter8" text3="" path3="/"/>
         </div>
     )
+    
 }
 
 export default Book2
