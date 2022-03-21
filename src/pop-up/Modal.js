@@ -39,7 +39,7 @@ function Modal(props) {
           >
             Cancel
           </button>
-          <button>Continue</button>
+          {/* <button>Continue</button> */}
         </div>
       </div>
     </div>
