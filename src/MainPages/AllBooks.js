@@ -14,7 +14,7 @@ const AllBooks = () => {
             </div>
                     {/* <NavDropdown.Divider />sutrasthana,sutrasthana,vimanasthana,shareerasthana */}
 
-            <BookList img1={book1} path1="/sutrasthana" img2={book2} path2="/sutrasthana"/>
+            <BookList img1={book1} path1="/sutrasthana" img2={book2} path2="/nidanasthana"/>
             <BookList img1={book3} path1="/vimanasthana" img2={book4} path2="/shareerasthana"/>
         </div>
     )
