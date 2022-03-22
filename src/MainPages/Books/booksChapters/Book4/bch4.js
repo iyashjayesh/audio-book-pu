@@ -62,6 +62,7 @@ import r43 from '../../../../assests/Audio/book4audio/ch4/4s43.aac'
 import r44 from '../../../../assests/Audio/book4audio/ch4/4s44.aac'
 import r45 from '../../../../assests/Audio/book4audio/ch4/4s45.aac'
 import r46 from '../../../../assests/Audio/book4audio/ch4/last.aac'
+// import all from '../../../../assests/Audio/book4audio/all/b4ch4.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/4.png'
@@ -71,6 +72,7 @@ const Book4ch4 = () => {
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                {/* <SingleAudioCard sholkno="All Shloka" sholk="All Shloka" audio={all}/> */}
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातो महतीं गर्भावक्रान्तिं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="यतश्च गर्भः सम्भवति, यस्मिंश्च गर्भसञ्ज्ञा, यद्विकारश्च गर्भः, यया चानुपूर्व्याऽभिनिर्वर्तते कुक्षौ, यश्चास्य वृद्धिहेतुः, यतश्चास्याजन्म भवति, यतश्च जायमानः कुक्षौ विनाशं प्राप्नोति, यतश्च कार्त्स्न्येनाविनश्यन् विकृतिमापद्यते, तदनुव्याख्यास्यामः||३||" audio={r3}/>

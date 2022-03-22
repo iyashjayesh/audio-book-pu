@@ -35,6 +35,7 @@ import r32 from '../../../../assests/Audio/book4audio/ch6/6s32.aac'
 import r33 from '../../../../assests/Audio/book4audio/ch6/6s33.aac'
 import r34 from '../../../../assests/Audio/book4audio/ch6/6s34.aac'
 import r35 from '../../../../assests/Audio/book4audio/ch6/last.aac'
+// import all from '../../../../assests/Audio/book4audio/all/b4ch6.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/6.png'
@@ -44,7 +45,8 @@ const Book4ch6 = () => {
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
-            <SingleAudioCard sholkno="Shloka 1" sholk="अथातः शरीरविचयं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
+                {/* <SingleAudioCard sholkno="All Shloka" sholk="All Shloka" audio={all}/> */}
+                <SingleAudioCard sholkno="Shloka 1" sholk="अथातः शरीरविचयं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="शरीरविचयः शरीरोपकारार्थमिष्यते| ज्ञात्वा हि शरीरतत्त्वं शरीरोपकारकरेषु भावेषु ज्ञानमुत्पद्यते| तस्माच्छरीरविचयं प्रशंसन्ति कुशलाः||३||" audio={r3}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="तत्र शरीरं नाम चेतनाधिष्ठानभूतं पञ्चमहाभूतविकारसमुदायात्मकं समयोगवाहि| यदा ह्यस्मिञ् शरीरे धातवो वैषम्यमापद्यन्ते तदा क्लेशं विनाशं वा प्राप्नोति| वैषम्यगमनं हि पुनर्धातूनां वृद्धिह्रासगमनमकार्त्स्न्येन प्रकृत्या च||४||" audio={r4}/>

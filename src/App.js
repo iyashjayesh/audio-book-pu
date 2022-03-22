@@ -10,22 +10,32 @@ import Book1ch3 from './MainPages/Books/booksChapters/Book1/bch3'
 import Book1ch4 from './MainPages/Books/booksChapters/Book1/bch4'
 import Book1ch5 from './MainPages/Books/booksChapters/Book1/bch5'
 import Book1ch6 from './MainPages/Books/booksChapters/Book1/bch6'
-// import Book1ch3 from './MainPages/Books/Book1/bch3'
-// import Book1ch4 from './MainPages/Books/Book1/bch4'
-// import Book1ch5 from './MainPages/Books/Book1/bch5'
-// import Book1ch6 from './MainPages/Books/Book1/bch6'
-// import Book1ch7 from './MainPages/Books/Book1/bch7'
-// import Book1ch8 from './MainPages/Books/Book1/bch8'
-// import Book1ch9 from './MainPages/Books/Book1/bch9'
-// import Book1ch10 from './MainPages/Books/Book1/bch10'
-// import Book1ch11 from './MainPages/Books/Book1/bch11'
-// import Book1ch12 from './MainPages/Books/Book1/bch12'
-// import Book1ch13 from './MainPages/Books/Book1/bch13'
-// import Book1ch14 from './MainPages/Books/Book1/bch14'
-// import Book1ch15 from './MainPages/Books/Book1/bch15'
-// import Book1ch16 from './MainPages/Books/Book1/bch16'
-// import Book1ch1730 from './MainPages/Books/Book1/bch1730'
+import Book1ch7 from './MainPages/Books/booksChapters/Book1/bch7'
+import Book1ch8 from './MainPages/Books/booksChapters/Book1/bch8'
+import Book1ch9 from './MainPages/Books/booksChapters/Book1/bch9'
+import Book1ch10 from './MainPages/Books/booksChapters/Book1/bch10'
+// import Book1ch11 from './MainPages/Books/booksChapters/Book1/bch11'
+// import Book1ch12 from './MainPages/Books/booksChapters/Book1/bch12'
+// import Book1ch13 from './MainPages/Books/booksChapters/Book1/bch13'
+// import Book1ch14 from './MainPages/Books/booksChapters/Book1/bch14'
+// import Book1ch15 from './MainPages/Books/booksChapters/Book1/bch15'
+// import Book1ch16 from './MainPages/Books/booksChapters/Book1/bch16'
+// import Book1ch17 from './MainPages/Books/booksChapters/Book1/bch17'
+// import Book1ch18 from './MainPages/Books/booksChapters/Book1/bch18'
+// import Book1ch19 from './MainPages/Books/booksChapters/Book1/bch19'
+// import Book1ch20 from './MainPages/Books/booksChapters/Book1/bch20'
+// import Book1ch21 from './MainPages/Books/booksChapters/Book1/bch21'
+// import Book1ch22 from './MainPages/Books/booksChapters/Book1/bch22'
+// import Book1ch23 from './MainPages/Books/booksChapters/Book1/bch23'
+// import Book1ch24 from './MainPages/Books/booksChapters/Book1/bch24'
+// import Book1ch25 from './MainPages/Books/booksChapters/Book1/bch25'
+// import Book1ch26 from './MainPages/Books/booksChapters/Book1/bch26'
+// import Book1ch27 from './MainPages/Books/booksChapters/Book1/bch27'
+// import Book1ch28 from './MainPages/Books/booksChapters/Book1/bch28'
+// import Book1ch29 from './MainPages/Books/booksChapters/Book1/bch29'
+// import Book1ch30 from './MainPages/Books/booksChapters/Book1/bch30'
 
+//Book 2
 import Book2 from './MainPages/Books/Book2'
 import Book2ch1 from './MainPages/Books/booksChapters/Book2/bch1'
 import Book2ch2 from './MainPages/Books/booksChapters/Book2/bch2'
@@ -71,10 +81,10 @@ function App() {
         <Route path="/sutrasthana/chapter4" element={<Book1ch4 />} />
         <Route path="/sutrasthana/chapter5" element={<Book1ch5 />} />
         <Route path="/sutrasthana/chapter6" element={<Book1ch6 />} />
-        {/* <Route path="/sutrasthana/chapter7" element={<Book1ch7 />} /> */}
-        {/* <Route path="/sutrasthana/chapter8" element={<Book1ch8 />} /> */}
-        {/* <Route path="/sutrasthana/chapter9" element={<Book1ch9 />} /> */}
-        {/* <Route path="/sutrasthana/chapter10" element={<Book1ch10 />} /> */}
+        <Route path="/sutrasthana/chapter7" element={<Book1ch7 />} />
+        <Route path="/sutrasthana/chapter8" element={<Book1ch8 />} />
+        <Route path="/sutrasthana/chapter9" element={<Book1ch9 />} />
+        <Route path="/sutrasthana/chapter10" element={<Book1ch10 />} />
         {/* <Route path="/sutrasthana/chapter11" element={<Book1ch11 />} /> */}
         {/* <Route path="/sutrasthana/chapter12" element={<Book1ch12 />} /> */}
         {/* <Route path="/sutrasthana/chapter13" element={<Book1ch13 />} /> */}

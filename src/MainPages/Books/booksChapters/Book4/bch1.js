@@ -158,7 +158,11 @@ import r155 from '../../../../assests/Audio/book4audio/ch1/C1S155.aac'
 import r156 from '../../../../assests/Audio/book4audio/ch1/C1S156.aac'
 import r157 from '../../../../assests/Audio/book4audio/ch1/C1S157.aac'
 import r158 from '../../../../assests/Audio/book4audio/ch1/last.aac'
-// import r159 from '../../../../assests/Audio/book4audio/ch1/'
+
+
+// import all from '../../../../assests/Audio/book4audio/all/b4ch1.aac'
+
+
 
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
@@ -169,6 +173,7 @@ const Book4ch1 = () => {
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                {/* <SingleAudioCard sholkno="All Shloka" sholk="All Shloka" audio={all}/> */}
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातः कतिधापुरुषीयं शारीरं व्याख्यास्यामः||१|| " audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2} />
                 <SingleAudioCard sholkno="Shloka 3" sholk="कतिधा पुरुषो धीमन्! धातुभेदेन भिद्यते| पुरुषः कारणं कस्मात्, प्रभवः पुरुषस्य कः||३||" audio={r3}/>

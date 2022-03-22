@@ -49,6 +49,7 @@ import r46 from '../../../../assests/Audio/book4audio/ch2/Shloka 46'
 import r47 from '../../../../assests/Audio/book4audio/ch2/Shloka 47'
 import r48 from '../../../../assests/Audio/book4audio/ch2/Shloka 48'
 import r49 from '../../../../assests/Audio/book4audio/ch2/last'
+// import all from '../../../../assests/Audio/book4audio/all/b4ch2.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/2.png'
@@ -58,6 +59,7 @@ const Book4ch2 = () => {
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                {/* <SingleAudioCard sholkno="All Shloka" sholk="All Shloka" audio={all}/> */}
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातोऽतुल्यगोत्रीयं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="अतुल्यगोत्रस्य रजःक्षयान्ते रहोविसृष्टं मिथुनीकृतस्य| किं स्याच्चतुष्पात्प्रभवं च षड्भ्यो यत् स्त्रीषु गर्भत्वमुपैति पुंसः||३||" audio={r3}/>
