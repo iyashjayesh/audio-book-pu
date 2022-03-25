@@ -14,11 +14,11 @@ import Book1ch7 from './MainPages/Books/booksChapters/Book1/bch7'
 import Book1ch8 from './MainPages/Books/booksChapters/Book1/bch8'
 import Book1ch9 from './MainPages/Books/booksChapters/Book1/bch9'
 import Book1ch10 from './MainPages/Books/booksChapters/Book1/bch10'
-// import Book1ch11 from './MainPages/Books/booksChapters/Book1/bch11'
-// import Book1ch12 from './MainPages/Books/booksChapters/Book1/bch12'
-// import Book1ch13 from './MainPages/Books/booksChapters/Book1/bch13'
-// import Book1ch14 from './MainPages/Books/booksChapters/Book1/bch14'
-// import Book1ch15 from './MainPages/Books/booksChapters/Book1/bch15'
+import Book1ch11 from './MainPages/Books/booksChapters/Book1/bch11'
+import Book1ch12 from './MainPages/Books/booksChapters/Book1/bch12'
+import Book1ch13 from './MainPages/Books/booksChapters/Book1/bch13'
+import Book1ch14 from './MainPages/Books/booksChapters/Book1/bch14'
+import Book1ch15 from './MainPages/Books/booksChapters/Book1/bch15'
 // import Book1ch16 from './MainPages/Books/booksChapters/Book1/bch16'
 // import Book1ch17 from './MainPages/Books/booksChapters/Book1/bch17'
 // import Book1ch18 from './MainPages/Books/booksChapters/Book1/bch18'
@@ -85,11 +85,11 @@ function App() {
         <Route path="/sutrasthana/chapter8" element={<Book1ch8 />} />
         <Route path="/sutrasthana/chapter9" element={<Book1ch9 />} />
         <Route path="/sutrasthana/chapter10" element={<Book1ch10 />} />
-        {/* <Route path="/sutrasthana/chapter11" element={<Book1ch11 />} /> */}
-        {/* <Route path="/sutrasthana/chapter12" element={<Book1ch12 />} /> */}
-        {/* <Route path="/sutrasthana/chapter13" element={<Book1ch13 />} /> */}
-        {/* <Route path="/sutrasthana/chapter14" element={<Book1ch14 />} /> */}
-        {/* <Route path="/sutrasthana/chapter15" element={<Book1ch15 />} /> */}
+        <Route path="/sutrasthana/chapter11" element={<Book1ch11 />} />
+        <Route path="/sutrasthana/chapter12" element={<Book1ch12 />} />
+        <Route path="/sutrasthana/chapter13" element={<Book1ch13 />} />
+        <Route path="/sutrasthana/chapter14" element={<Book1ch14 />} />
+        <Route path="/sutrasthana/chapter15" element={<Book1ch15 />} />
         {/* <Route path="/sutrasthana/chapter16" element={<Book1ch16 />} /> */}
         {/* <Route path="/sutrasthana/chapter17" element={<Book1ch1730 />} /> */}
 
