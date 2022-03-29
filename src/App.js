@@ -19,11 +19,11 @@ import Book1ch12 from './MainPages/Books/booksChapters/Book1/bch12'
 import Book1ch13 from './MainPages/Books/booksChapters/Book1/bch13'
 import Book1ch14 from './MainPages/Books/booksChapters/Book1/bch14'
 import Book1ch15 from './MainPages/Books/booksChapters/Book1/bch15'
-// import Book1ch16 from './MainPages/Books/booksChapters/Book1/bch16'
+import Book1ch16 from './MainPages/Books/booksChapters/Book1/bch16'
 // import Book1ch17 from './MainPages/Books/booksChapters/Book1/bch17'
 // import Book1ch18 from './MainPages/Books/booksChapters/Book1/bch18'
-// import Book1ch19 from './MainPages/Books/booksChapters/Book1/bch19'
-// import Book1ch20 from './MainPages/Books/booksChapters/Book1/bch20'
+import Book1ch19 from './MainPages/Books/booksChapters/Book1/bch19'
+import Book1ch20 from './MainPages/Books/booksChapters/Book1/bch20'
 // import Book1ch21 from './MainPages/Books/booksChapters/Book1/bch21'
 // import Book1ch22 from './MainPages/Books/booksChapters/Book1/bch22'
 // import Book1ch23 from './MainPages/Books/booksChapters/Book1/bch23'
@@ -90,6 +90,9 @@ function App() {
         <Route path="/sutrasthana/chapter13" element={<Book1ch13 />} />
         <Route path="/sutrasthana/chapter14" element={<Book1ch14 />} />
         <Route path="/sutrasthana/chapter15" element={<Book1ch15 />} />
+        <Route path="/sutrasthana/chapter16" element={<Book1ch16 />} />
+        <Route path="/sutrasthana/chapter19" element={<Book1ch19 />} />
+        <Route path="/sutrasthana/chapter20" element={<Book1ch20 />} />
         {/* <Route path="/sutrasthana/chapter16" element={<Book1ch16 />} /> */}
         {/* <Route path="/sutrasthana/chapter17" element={<Book1ch1730 />} /> */}
 
