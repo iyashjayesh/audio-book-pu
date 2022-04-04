@@ -20,20 +20,20 @@ import Book1ch13 from './MainPages/Books/booksChapters/Book1/bch13'
 import Book1ch14 from './MainPages/Books/booksChapters/Book1/bch14'
 import Book1ch15 from './MainPages/Books/booksChapters/Book1/bch15'
 import Book1ch16 from './MainPages/Books/booksChapters/Book1/bch16'
-// import Book1ch17 from './MainPages/Books/booksChapters/Book1/bch17'
-// import Book1ch18 from './MainPages/Books/booksChapters/Book1/bch18'
+import Book1ch17 from './MainPages/Books/booksChapters/Book1/bch17'
+import Book1ch18 from './MainPages/Books/booksChapters/Book1/bch18'
 import Book1ch19 from './MainPages/Books/booksChapters/Book1/bch19'
 import Book1ch20 from './MainPages/Books/booksChapters/Book1/bch20'
-// import Book1ch21 from './MainPages/Books/booksChapters/Book1/bch21'
-// import Book1ch22 from './MainPages/Books/booksChapters/Book1/bch22'
-// import Book1ch23 from './MainPages/Books/booksChapters/Book1/bch23'
-// import Book1ch24 from './MainPages/Books/booksChapters/Book1/bch24'
-// import Book1ch25 from './MainPages/Books/booksChapters/Book1/bch25'
-// import Book1ch26 from './MainPages/Books/booksChapters/Book1/bch26'
-// import Book1ch27 from './MainPages/Books/booksChapters/Book1/bch27'
-// import Book1ch28 from './MainPages/Books/booksChapters/Book1/bch28'
-// import Book1ch29 from './MainPages/Books/booksChapters/Book1/bch29'
-// import Book1ch30 from './MainPages/Books/booksChapters/Book1/bch30'
+import Book1ch21 from './MainPages/Books/booksChapters/Book1/bch21'
+import Book1ch22 from './MainPages/Books/booksChapters/Book1/bch22'
+import Book1ch23 from './MainPages/Books/booksChapters/Book1/bch23'
+import Book1ch24 from './MainPages/Books/booksChapters/Book1/bch24'
+import Book1ch25 from './MainPages/Books/booksChapters/Book1/bch25'
+import Book1ch26 from './MainPages/Books/booksChapters/Book1/bch26'
+import Book1ch27 from './MainPages/Books/booksChapters/Book1/bch27'
+import Book1ch28 from './MainPages/Books/booksChapters/Book1/bch28'
+import Book1ch29 from './MainPages/Books/booksChapters/Book1/bch29'
+import Book1ch30 from './MainPages/Books/booksChapters/Book1/bch30'
 
 //Book 2
 import Book2 from './MainPages/Books/Book2'
@@ -91,8 +91,20 @@ function App() {
         <Route path="/sutrasthana/chapter14" element={<Book1ch14 />} />
         <Route path="/sutrasthana/chapter15" element={<Book1ch15 />} />
         <Route path="/sutrasthana/chapter16" element={<Book1ch16 />} />
+        <Route path="/sutrasthana/chapter17" element={<Book1ch17 />} />
+        <Route path="/sutrasthana/chapter18" element={<Book1ch18 />} />
         <Route path="/sutrasthana/chapter19" element={<Book1ch19 />} />
         <Route path="/sutrasthana/chapter20" element={<Book1ch20 />} />
+        <Route path="/sutrasthana/chapter21" element={<Book1ch21 />} />
+        <Route path="/sutrasthana/chapter22" element={<Book1ch22 />} />
+        <Route path="/sutrasthana/chapter23" element={<Book1ch23 />} />
+        <Route path="/sutrasthana/chapter24" element={<Book1ch24 />} />
+        <Route path="/sutrasthana/chapter25" element={<Book1ch25 />} />
+        <Route path="/sutrasthana/chapter26" element={<Book1ch26 />} />
+        <Route path="/sutrasthana/chapter27" element={<Book1ch27 />} />
+        <Route path="/sutrasthana/chapter28" element={<Book1ch28 />} />
+        <Route path="/sutrasthana/chapter29" element={<Book1ch29 />} />
+        <Route path="/sutrasthana/chapter30" element={<Book1ch30 />} />
         {/* <Route path="/sutrasthana/chapter16" element={<Book1ch16 />} /> */}
         {/* <Route path="/sutrasthana/chapter17" element={<Book1ch1730 />} /> */}
 

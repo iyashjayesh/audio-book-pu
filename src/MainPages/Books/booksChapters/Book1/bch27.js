@@ -1,6 +1,6 @@
 import React from 'react'
 import BookSlider from '../../../../localComponents/BookSlider'
-import r1 from '../../../../assests/Audio/book1audio/'
+import r1 from '../../../../assests/Audio/book1audio/27/C27S1,2.mp3'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/sutrasthana/27.png'
