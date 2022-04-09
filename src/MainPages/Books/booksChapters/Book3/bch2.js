@@ -18,6 +18,7 @@ import r15 from '../../../../assests/Audio/book3audio/ch2/c2s16.aac'
 import r16 from '../../../../assests/Audio/book3audio/ch2/c2s17.aac'
 import r17 from '../../../../assests/Audio/book3audio/ch2/c2s18.aac'
 import r18 from '../../../../assests/Audio/book3audio/ch2/c2s19.aac'
+import r19 from '../../../../assests/Audio/book3audio/ch2/c2slast.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/2.png'
@@ -45,6 +46,7 @@ const Book3ch2 = () => {
                 <SingleAudioCard sholkno="Shloka 17" sholk="नाभिस्तनान्तरं जन्तोरामाशय इति स्मृतः| अशितं खादितं पीतं लीढं चात्र विपच्यते||१७||" audio={r16}/>
                 <SingleAudioCard sholkno="Shloka 18" sholk="आमाशयगतः पाकमाहारः प्राप्य केवलम्| पक्वः सर्वाशयं पश्चाद्धमनीभिः प्रपद्यते||१८||" audio={r17}/>
                 <SingleAudioCard sholkno="Shloka 19" sholk="तत्र श्लोकः- तस्य मात्रावतो लिङ्गं फलं चोक्तं यथायथम्| अमात्रस्य तथा लिङ्गं फलं चोक्तं विभागशः||१९||" audio={r18}/>
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते विमानस्थाने त्रिविधकुक्षीयविमानं नाम द्वितीयोऽध्यायः||२||" audio={r19}/>
 
             </div>
         </div>

@@ -143,6 +143,7 @@ import r135 from '../../../../assests/Audio/book1audio/ch1/C1S137.m4a'
 import r136 from '../../../../assests/Audio/book1audio/ch1/C1S138.m4a'
 import r137 from '../../../../assests/Audio/book1audio/ch1/C1S139.m4a'
 import r138 from '../../../../assests/Audio/book1audio/ch1/C1S140.m4a'
+import r139 from '../../../../assests/Audio/book1audio/ch1/C1SLAST.m4a'
 
 
 
@@ -160,7 +161,7 @@ const Book1ch1 = () => {
                 <SingleAudioCard sholkno="Shloka 4" sholk="ब्रह्मणा हि यथाप्रोक्तमायुर्वेदं प्रजापतिः |जग्राह निखिलेनादावश्विनौ तु पुनस्ततः ||४||" audio={r3}/>
                 <SingleAudioCard sholkno="Shloka 5" sholk=" अश्विभ्यां भगवाञ्छक्रः प्रतिपेदे ह केवलम् |ऋषिप्रोक्तो भरद्वाजस्तस्माच्छक्रमुपागमत् ||५|| " audio={r4}/>
                 <SingleAudioCard sholkno="Shloka 6" sholk="विघ्नभूता यदा रोगाः प्रादुर्भूताः शरीरिणाम् |तपोपवासाध्ययनब्रह्मचर्यव्रतायुषाम् ||६||" audio={r5}/>
-                <SingleAudioCard sholkno="Shloka 7" sholk="तदा भूतेष्वनुक्रोशं पुरस्कृत्य महर्षयः |समेताः पुण्यकर्माणः पार्श्वे हिमवतः शुभे ||७|| अङ्गिरा जमदग्निश्च वसिष्ठः कश्यपो भृगुः |आत्रेयो गौतमः साङ्ख्यः पुलस्त्यो नारदोऽसितः ||८||" audio={r6}/>
+                <SingleAudioCard sholkno="Shloka 7" sholk="तदा भूतेष्वनुक्रोशं पुरस्कृत्य महर्षयः |समेताः पुण्यकर्माणः पार्श्वे हिमवतः शुभे ||७||" audio={r6}/>
                 <SingleAudioCard sholkno="Shloka 8" sholk="अङ्गिरा जमदग्निश्च वसिष्ठः कश्यपो भृगुः |आत्रेयो गौतमः साङ्ख्यः पुलस्त्यो नारदोऽसितः ||८||" audio={r7}/>
                 <SingleAudioCard sholkno="Shloka 9" sholk=" अगस्त्यो वामदेवश्च मार्कण्डेयाश्वलायनौ |पारिक्षिर्भिक्षुरात्रेयो भरद्वाजः कपिञ्ज(ष्ठ)लः ||९||" audio={r8}/>
                 <SingleAudioCard sholkno="Shloka 10" sholk="विश्वामित्राश्मरथ्यौ च भार्गवश्च्यवनोऽभिजित् |गार्ग्यः शाण्डिल्यकौण्डिल्यौ(न्यौ)वार्क्षिर्देवलगालवौ||१०||" audio={r9}/>
@@ -294,8 +295,7 @@ const Book1ch1 = () => {
                 <SingleAudioCard sholkno="Shloka 138" sholk="रसाः सप्रत्ययद्रव्यास्त्रिविधो द्रव्यसङ्ग्रहः |मूलिन्यश्च फलिन्यश्च स्नेहाश्च लवणानि च ||१३८||" audio={r136}/>
                 <SingleAudioCard sholkno="Shloka 139" sholk=" मूत्रं क्षीराणि वृक्षाश्च षड् ये क्षीरत्वगाश्रयाः |कर्माणि चैषां सर्वेषां योगायोगगुणागुणाः ||१३९|" audio={r137}/>
                 <SingleAudioCard sholkno="Shloka 140" sholk=" वैद्यापवादो यत्रस्थाः सर्वे च भिषजां गुणाः |सर्वमेतत् समाख्यातं पूर्वाध्याये महर्षिणा ||१४०" audio={r138}/>
-                {/* <SingleAudioCard sholkno="Shloka 141" sholk="" audio={r139}/> */}
-
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते सूत्रस्थानेदीर्घञ्जीवितीयो नाम प्रथमोऽध्यायः ||१||" audio={r139}/>
             </div>
         </div>
     )

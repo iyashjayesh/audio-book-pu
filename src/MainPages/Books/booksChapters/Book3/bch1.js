@@ -41,6 +41,7 @@ import r38 from '../../../../assests/Audio/book3audio/ch1/c1s24(8).aac'
 import r39 from '../../../../assests/Audio/book3audio/ch1/c1s25.aac'
 import r40 from '../../../../assests/Audio/book3audio/ch1/c1s26.aac'
 import r41 from '../../../../assests/Audio/book3audio/ch1/c1s27,28.aac'
+import r42 from '../../../../assests/Audio/book3audio/ch1/c1slast.aac'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/1.png'
@@ -50,7 +51,7 @@ const Book3ch1 = () => {
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
-                <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातो रसविमानं व्याख्यास्यामः||१||" audio={r1}/>
+                <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातो रसविमानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="इह खलु व्याधीनां निमित्तपूर्वरूपरूपोपशयसङ्ख्याप्राधान्यविधिविकल्प बलकालविशेषाननुप्रविश्यानन्तरं  दोषभेषजदेशकालबलशरीरसाराहारसात्म्यसत्त्वप्रकृतिवयसां  मानमवहितमनसा यथावज्ज्ञेयं भवति भिषजा, दोषादिमानज्ञानायत्तत्वात् क्रियायाः| न ह्यमानज्ञो दोषादीनां भिषग् व्याधिनिग्रहसमर्थो भवति| तस्माद्दोषादिमानज्ञानार्थं विमानस्थानमुपदेक्ष्यामोऽग्निवेश!||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="तत्रादौ रसद्रव्यदोषविकारप्रभावान् वक्ष्यामः| रसास्तावत् षट्- मधुराम्ललवणकटुतिक्तकषायाः| ते सम्यगुपयुज्यमानाः शरीरं यापयन्ति, मिथ्योपयुज्यमानास्तु खलु दोषप्रकोपायोपकल्पन्ते||४||" audio={r3}/>
                 <SingleAudioCard sholkno="Shloka 5" sholk="दोषाः पुनस्त्रयो वातपित्तश्लेष्माणः| ते प्रकृतिभूताः शरीरोपकारका भवन्ति, विकृतिमापन्नास्तु खलु नानाविधैर्विकारैः शरीरमुपतापयन्ति||५||" audio={r4}/>
@@ -92,8 +93,8 @@ const Book3ch1 = () => {
                 <SingleAudioCard sholkno="Shloka 25" sholk="आत्मानमभिसमीक्ष्य भुञ्जीत सम्यक्; इदं ममोपशेते इदं नोपशेत इत्येवं विदितं ह्यस्यात्मन आत्मसात्म्यं भवति; तस्मादात्मानमभिसमीक्ष्य भुञ्जीत सम्यगिति||२५||" audio={r40}/>
                 <SingleAudioCard sholkno="Shloka 26" sholk="भवति चात्र-रसान् द्रव्याणि दोषांश्च विकारांश्च प्रभावतः| वेद यो देशकालौ च शरीरं च स नो भिषक्||२६||" audio={r41}/>
                 <SingleAudioCard sholkno="Shloka 27,28" sholk="तत्र श्लोकौ-विमानार्थो रसद्रव्यदोषरोगाः प्रभावतः| द्रव्याणि नातिसेव्यानि त्रिविधं सात्म्यमेव च||२७|| आहारायतनान्यष्टौ भोज्यसाद्गुण्यमेव च| विमाने रससङ्ख्याते सर्वमेतत् प्रकाशितम्||२८||" audio={r41}/>
-                
-            </div>
+                <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते विमानस्थाने रसविमानं नाम प्रथमोऽध्यायः||१||" audio={r42}/>
+            </div> 
         </div>
     )
 }
