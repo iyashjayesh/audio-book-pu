@@ -30,7 +30,7 @@ import Book1ch23 from './MainPages/Books/booksChapters/Book1/bch23'
 import Book1ch24 from './MainPages/Books/booksChapters/Book1/bch24'
 import Book1ch25 from './MainPages/Books/booksChapters/Book1/bch25'
 import Book1ch26 from './MainPages/Books/booksChapters/Book1/bch26'
-// import Book1ch27 from './MainPages/Books/booksChapters/Book1/bch27'
+import Book1ch27 from './MainPages/Books/booksChapters/Book1/bch27'
 import Book1ch28 from './MainPages/Books/booksChapters/Book1/bch28'
 import Book1ch29 from './MainPages/Books/booksChapters/Book1/bch29'
 import Book1ch30 from './MainPages/Books/booksChapters/Book1/bch30'
@@ -101,13 +101,11 @@ function App() {
         <Route path="/sutrasthana/chapter24" element={<Book1ch24 />} />
         <Route path="/sutrasthana/chapter25" element={<Book1ch25 />} />
         <Route path="/sutrasthana/chapter26" element={<Book1ch26 />} />
-        {/* <Route path="/sutrasthana/chapter27" element={<Book1ch27 />} /> */}
+        <Route path="/sutrasthana/chapter27" element={<Book1ch27 />} />
         <Route path="/sutrasthana/chapter28" element={<Book1ch28 />} />
         <Route path="/sutrasthana/chapter29" element={<Book1ch29 />} />
         <Route path="/sutrasthana/chapter30" element={<Book1ch30 />} />
-        {/* <Route path="/sutrasthana/chapter16" element={<Book1ch16 />} /> */}
-        {/* <Route path="/sutrasthana/chapter17" element={<Book1ch1730 />} /> */}
-
+        
         {/* Book 2 Routing */}
         <Route path="/nidanasthana" element={<Book2/>} />
           <Route path="/nidanasthana/chapter1" element={<Book2ch1 />} />
