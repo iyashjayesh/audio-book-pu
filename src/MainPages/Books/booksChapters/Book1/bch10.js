@@ -48,7 +48,7 @@ const Book1ch10 = () => {
                 <SingleAudioCard sholkno="Shloka 21" sholk="भिषजा प्राक् परीक्ष्यैवं विकाराणां स्वलक्षणम् | पश्चात्कर्मसमारम्भः कार्यः साध्येषु धीमता ||२१||" audio={r20}/>
                 <SingleAudioCard sholkno="Shloka 22" sholk=" साध्यासाध्यविभागज्ञो यः सम्यक्प्रतिपत्तिमान् | न स मैत्रेयतुल्यानां मिथ्याबुद्धिं प्रकल्पयेत् ||२२|| " audio={r21}/>
                 <SingleAudioCard sholkno="Shloka 23,24" sholk="चतुर्विधविकल्पाश्च व्याधयः स्वस्वलक्षणाः | उक्ता महाचतुष्पादे येष्वायत्तं भिषग्जितम् ||२४|| चतुर्विधविकल्पाश्च व्याधयः स्वस्वलक्षणाः | उक्ता महाचतुष्पादे येष्वायत्तं भिषग्जितम् ||२४|| " audio={r22}/>
-                <SingleAudioCard sholkno="Shloka 25" sholk="" audio={r23}/>
+                {/* <SingleAudioCard sholkno="Shloka 25" sholk="" audio={r23}/> */}
                 <SingleAudioCard sholkno="Last Shloka" sholk="इत्यग्निवेशकृते तन्त्रे चरकप्रतिसंस्कृते श्लोकस्थानेमहाचतुष्पादो नाम दशमोऽध्यायः ||१०||" audio={r23}/>
                
             </div>

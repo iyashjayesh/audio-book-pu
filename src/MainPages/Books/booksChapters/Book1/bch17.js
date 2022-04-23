@@ -90,7 +90,7 @@ import r87 from '../../../../assests/Audio/book1audio/17/C17S120,121.mp3'
 import r88 from '../../../../assests/Audio/book1audio/17/C17Slast.mp3'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
-import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/sutrasthana/6.png'
+import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/sutrasthana/17.png'
 
 const Book1ch17 = () => {
     return (

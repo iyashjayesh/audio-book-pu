@@ -26,6 +26,7 @@ import r23 from '../../../../assests/Audio/book1audio/ch9/C9S25'
 import r24 from '../../../../assests/Audio/book1audio/ch9/C9S26'
 import r25 from '../../../../assests/Audio/book1audio/ch9/C9S27,28'
 import r26 from '../../../../assests/Audio/book1audio/ch9/C9SLast'
+import r27 from '../../../../assests/Audio/book1audio/ch9/C9S5.m4a'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/sutrasthana/9.png'
@@ -37,8 +38,11 @@ const Book1ch9 = () => {
             <div className="text-center card-holder-custom">
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातः खुड्डाकचतुष्पादमध्यायं व्याख्यास्यामः ||१||इति ह स्माह भगवानात्रेयः ||२|| " audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="भिषग्द्रव्याण्युपस्थाता रोगी पादचतुष्टयम् | गुणवत् कारणं ज्ञेयं विकारव्युपशान्तये ||३|| " audio={r2}/>
-                <SingleAudioCard sholkno="Shloka 4" sholk="विकारो धातुवैषम्यं, साम्यं प्रकृतिरुच्यते |सुखसञ्ज्ञकमारोग्यं, विकारो दुःखमेव च ||४|| " audio={r3}/>
-                <SingleAudioCard sholkno="Shloka 4(1)" sholk="विकारो धातुवैषम्यं, साम्यं प्रकृतिरुच्यते |सुखसञ्ज्ञकमारोग्यं, विकारो दुःखमेव च ||४|| " audio={r4}/>
+                {/* <SingleAudioCard sholkno="Shloka 4" sholk="विकारो धातुवैषम्यं, साम्यं प्रकृतिरुच्यते |सुखसञ्ज्ञकमारोग्यं, विकारो दुःखमेव च ||४|| " audio={r3}/> */}
+                <SingleAudioCard sholkno="Shloka 4" sholk="विकारो धातुवैषम्यं, साम्यं प्रकृतिरुच्यते |सुखसञ्ज्ञकमारोग्यं, विकारो दुःखमेव च ||४|| " audio={r4} />
+                
+                <SingleAudioCard sholkno="Shloka 5" sholk="चतुर्णां भिषगादीनां शस्तानां धातुवैकृते |प्रवृत्तिर्धातुसाम्यार्था चिकित्सेत्यभिधीयते ||५|| " audio={r27}/>
+                
                 <SingleAudioCard sholkno="Shloka 6" sholk="श्रुते पर्यवदातत्वं बहुशो दृष्टकर्मता |दाक्ष्यं शौचमिति ज्ञैयं वैद्ये गुणचतुष्टयम् ||६|| " audio={r5}/>
                 <SingleAudioCard sholkno="Shloka 7" sholk="बहुता तत्रयोग्यत्वमनेकविधकल्पना | सम्पच्चेति चतुष्कोऽयं द्रव्याणां गुण उच्यते ||७|| " audio={r6}/>
                 <SingleAudioCard sholkno="Shloka 8" sholk="उपचारज्ञता दाक्ष्यमनुरागश्च भर्तरि | शौचं चेति चतुष्कोऽयं गुणः परिचरे जने ||८|| " audio={r7}/>

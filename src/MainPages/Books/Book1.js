@@ -6,20 +6,7 @@ import sliderImg from '../../assests/BookLong/Sutrasthana1.png'
 import '../../App.css';
 
 const Book1 = () => {
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     return (
         <div>
             <BookSlider img={sliderImg} />
@@ -32,7 +19,7 @@ const Book1 = () => {
             <ChaptercardThree text1="19. अष्टोदरीयोऽध्यायः" path1="/sutrasthana/chapter19" text2="20. महारोगाध्यायः" path2="/sutrasthana/chapter20" text3="21. अष्टौनिन्दितीयोऽध्यायः" path3="/sutrasthana/chapter21"/>
             <ChaptercardThree text1="22. लङ्घनबृंहणीयोऽध्यायः" path1="/sutrasthana/chapter22" text2="23. सन्तर्पणीयोऽध्यायः" path2="/sutrasthana/chapter23" text3="24. विधिशोणितीयोऽध्यायः" path3="/sutrasthana/chapter24"/>
             <ChaptercardThree text1="25. यज्जःपुरुषीयोऽध्यायः" path1="/sutrasthana/chapter25" text2="26. आत्रेयभद्रकाप्यीयोऽध्यायः" path2="/sutrasthana/chapter26" text3="27. अन्नपानविध्यध्यायः" path3="/sutrasthana/chapter27"/>
-            <ChaptercardThree text1="28. विविधाशितपीतीयोऽध्यायः" path1="/sutrasthana/chapter28" text2="28. दशप्राणायतनीयोऽध्यायः" path2="/sutrasthana/chapter29" text3="30. अर्थेदशमहामूलीयोऽध्यायः" path3="/sutrasthana/chapter30"/>
+            <ChaptercardThree text1="28. विविधाशितपीतीयोऽध्यायः" path1="/sutrasthana/chapter28" text2="29. दशप्राणायतनीयोऽध्यायः" path2="/sutrasthana/chapter29" text3="30. अर्थेदशमहामूलीयोऽध्यायः" path3="/sutrasthana/chapter30"/>
         </div>
     )
     

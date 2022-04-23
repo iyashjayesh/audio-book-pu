@@ -73,7 +73,7 @@ const Book1ch22 = () => {
 रौक्ष्यं खरत्वं वैशद्यं यत् कुर्यात्तद्धि रूक्षणम्||१०||" audio={r9}/>
                 <SingleAudioCard sholkno="Shloka 11" sholk="स्नेहनं स्नेहविष्यन्दमार्दवक्लेदकारकम् [६] |
 स्तम्भगौरवशीतघ्नं स्वेदनं स्वेदकारकम्||११||" audio={r10}/>
-                <SingleAudioCard sholkno="Shloka 11(1)" sholk="" audio={r11}/>
+                {/* <SingleAudioCard sholkno="Shloka 11(1)" sholk="" audio={r11}/> */}
                 <SingleAudioCard sholkno="Shloka 12" sholk="स्तम्भनं स्तम्भयति यद्गतिमन्तं चलं ध्रुवम्|" audio={r12}/>
                 <SingleAudioCard sholkno="Shloka 13" sholk="लघूष्णतीक्ष्णविशदं रूक्षं सूक्ष्मं खरं सरम्||१२||
 कठिनं चैव यद्द्रव्यं प्रायस्तल्लङ्घनं स्मृतम्|" audio={r13}/>

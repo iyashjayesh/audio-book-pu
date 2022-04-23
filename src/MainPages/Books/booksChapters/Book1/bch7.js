@@ -65,6 +65,8 @@ import r60 from '../../../../assests/Audio/book1audio/ch7/C7S64.m4a'
 import r61 from '../../../../assests/Audio/book1audio/ch7/C7S65.m4a'
 import r62 from '../../../../assests/Audio/book1audio/ch7/C7S66.m4a'
 import r63 from '../../../../assests/Audio/book1audio/ch7/C7SLast.m4a'
+import r64 from '../../../../assests/Audio/book1audio/ch7/C7S13.m4a'
+import r65 from '../../../../assests/Audio/book1audio/ch7/C7S14.m4a'
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/sutrasthana/7.png'
@@ -84,6 +86,9 @@ const Book1ch7 = () => {
                 <SingleAudioCard sholkno="Shloka 10" sholk=" मेढ्रे वृषणयोः शूलमङ्गमर्दो हृदि व्यथा |भवेत् प्रतिहते शुक्रे विबद्धं मूत्रमेव च ||१०||" audio={r8}/>
                 {/* <SingleAudioCard sholkno="Shloka 11" sholk=" तत्राभ्यङ्गोऽवगाहश्च मदिरा चरणायुधाः | शालिः पयो निरूहश्च शस्तं मैथुनमेव च ||११||" audio={r9}/> */}
                 <SingleAudioCard sholkno="Shloka 12" sholk=" सङ्गो विण्मूत्रवातानामाध्मानं वेदना क्लमः | जठरे वातजाश्चान्ये रोगाः स्युर्वातनिग्रहात् ||१२||" audio={r10}/>
+
+                <SingleAudioCard sholkno="Shloka 13" sholk="  स्नेहस्वेदविधिस्तत्र वर्तयो भोजनानि च | पानानि बस्तयश्चैव शस्तं वातानुलोमनम् ||१३||" audio={r64}/>
+                <SingleAudioCard sholkno="Shloka 14" sholk="  कण्डूकोठारुचिव्यङ्गशोथपाण्ड्वामयज्वराः | कुष्ठहृल्लासवीसर्पाश्छर्दिनिग्रहजा गदाः ||१४||" audio={r65}/>
                 
                 <SingleAudioCard sholkno="Shloka 15" sholk=" भुक्त्वा प्रच्छर्दनं धूमो लङ्घनं रक्तमोक्षणम् | रूक्षान्नपानं व्यायामो विरेकश्चात्र शस्यते ||१५||" audio={r11}/>
                 <SingleAudioCard sholkno="Shloka 16" sholk=" मन्यास्तम्भः शिरःशूलमर्दितार्धावभेदकौ |इन्द्रियाणां च दौर्बल्यं क्षवथोः स्याद्विधारणात् ||१६||" audio={r12}/>
