@@ -155,7 +155,7 @@ const Book1ch25 = () => {
                 <SingleAudioCard sholkno="Shloka 48(6)" sholk="पद्मोत्पलनलिकुमुदसौगन्धिकपुण्डरीकशतपत्रमधूकप्रियङ्गुधातकीपुष्पैर्दश पुष्पासवा भवन्ति" audio={r36}/>
                 <SingleAudioCard sholkno="Shloka 48(7)" sholk="इक्षुकाण्डेक्ष्विक्षुवालिकापुण्ड्रकचतुर्थाः काण्डासवा भवन्ति" audio={r37}/>
                 <SingleAudioCard sholkno="Shloka 48(7-1)" sholk="पटोलताडकपत्रासवौ [२५] द्वौ भवतः" audio={r43}/>
-                <SingleAudioCard sholkno="Shloka 48(8)" sholk="द्वौ भवतः तिल्वकलोध्रैलवालुकक्रमुकचतुर्थास्त्वगासवा भवन्ति, " audio={r38}/>
+                <SingleAudioCard sholkno="Shloka 48(8)" sholk="तिल्वकलोध्रैलवालुकक्रमुकचतुर्थास्त्वगासवा भवन्ति, " audio={r38}/>
                 <SingleAudioCard sholkno="Shloka 48(9)" sholk="शर्करासव एक एवेति|
 एवमेषामासवानां चतुरशीतिः परस्परेणासंसृष्टानामासवद्रव्याणामुपनिर्दिष्टा भवति|" audio={r39}/>
 
