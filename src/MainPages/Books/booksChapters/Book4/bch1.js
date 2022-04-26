@@ -2,7 +2,7 @@ import React from 'react'
 import BookSlider from '../../../../localComponents/BookSlider'
 import r1 from '../../../../assests/Audio/book4audio/ch1/C1S1.aac'
 import r2 from '../../../../assests/Audio/book4audio/ch1/C1S1.aac'
-import r3 from '../../../../assests/Audio/book4audio/ch1/C1S1.aac'
+import r3 from '../../../../assests/Audio/book4audio/ch1/C1S3.mp3'
 import r4 from '../../../../assests/Audio/book4audio/ch1/c1s4.aac'
 import r5 from '../../../../assests/Audio/book4audio/ch1/C1s5.aac'
 import r6 from '../../../../assests/Audio/book4audio/ch1/c1s6.aac'
@@ -177,7 +177,7 @@ const Book4ch1 = () => {
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातः कतिधापुरुषीयं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2} />
                 <SingleAudioCard sholkno="Shloka 3" sholk="कतिधा पुरुषो धीमन्! धातुभेदेन भिद्यते| पुरुषः कारणं कस्मात्, प्रभवः पुरुषस्य कः||३||" audio={r3}/>
-                <SingleAudioCard sholkno="Shloka 4" sholk="किमज्ञो ज्ञः, स नित्यः किं किमनित्यो निदर्शितः| प्रकृतिः का, विकाराः के, किं लिङ्गं पुरुषस्य च||४||" audio={r1}/>
+                <SingleAudioCard sholkno="Shloka 4" sholk="किमज्ञो ज्ञः, स नित्यः किं किमनित्यो निदर्शितः| प्रकृतिः का, विकाराः के, किं लिङ्गं पुरुषस्य च||४||" audio={r4}/>
                 <SingleAudioCard sholkno="Shloka 5" sholk="निष्क्रियं च स्वतन्त्रं च वशिनं सर्वगं विभुम्| वदन्त्यात्मानमात्मज्ञाः क्षेत्रज्ञं साक्षिणं तथा||५||" audio={r5}/>
                 <SingleAudioCard sholkno="Shloka 6" sholk="निष्क्रियस्य क्रिया तस्य भगवन्! विद्यते कथम्| स्वतन्त्रश्चेदनिष्टासु कथं योनिषु जायते||६||" audio={r6}/>
                 <SingleAudioCard sholkno="Shloka 7" sholk="वशी यद्यसुखैः कस्माद्भावैराक्रम्यते बलात्| सर्वाः सर्वगतत्वाच्च वेदनाः किं न वेत्ति सः||७||" audio={r7}/>
