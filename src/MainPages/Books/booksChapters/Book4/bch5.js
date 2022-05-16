@@ -32,7 +32,7 @@ import r27 from '../../../../assests/Audio/book4audio/ch5/last.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/5.png'
 
-import All from '../../../../assests/Audio/AllMerged/ch4/ch5.mp3'
+import All from '../../../../assests/Audio/AllMerged/ch4/ch5.Mp3'
 
 const Book4ch5 = () => {
     return (
