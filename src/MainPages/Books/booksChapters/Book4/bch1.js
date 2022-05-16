@@ -159,11 +159,7 @@ import r156 from '../../../../assests/Audio/book4audio/ch1/C1S156.aac'
 import r157 from '../../../../assests/Audio/book4audio/ch1/C1S157.aac'
 import r158 from '../../../../assests/Audio/book4audio/ch1/last.aac'
 
-
 // import all from '../../../../assests/Audio/book4audio/all/b4ch1.aac'
-
-
-
 
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/1.png'
