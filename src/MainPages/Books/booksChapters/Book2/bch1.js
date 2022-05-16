@@ -43,11 +43,14 @@ import r39 from '../../../../assests/Audio/book2audio/ch1/C1S45.mp3'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/nidanasthana/1.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch2/ch1.mp3'
+
 const Book2ch1 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातो ज्वरनिदानं व्याख्यास्यामः||१||इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="इह खलु हेतुर्निमित्तमायतनं कर्ता कारणं प्रत्ययः समुत्थानं निदानमित्यनर्थान्तरम्|तत्त्रिविधम्- असात्म्येन्द्रियार्थसंयोगः, प्रज्ञापराधः, परिणामश्चेति||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="|अतस्त्रिविधा व्याधयः प्रादुर्भवन्ति- आग्नेयाः, सौम्याः, वायव्याश्च; द्विविधाश्चापरे- राजसाः, तामसाश्च||४||" audio={r3}/>

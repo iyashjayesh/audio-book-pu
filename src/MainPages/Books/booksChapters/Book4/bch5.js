@@ -32,12 +32,15 @@ import r27 from '../../../../assests/Audio/book4audio/ch5/last.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/5.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch4/ch5.mp3'
+
 const Book4ch5 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
                 {/* <SingleAudioCard sholkno="All Shloka" sholk="All Shloka" audio={all}/> */}
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातः पुरुषविचयं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="‘पुरुषोऽयं लोकसम्मितः’ इत्युवाच भगवान् पुनर्वसुरात्रेयः| यावन्तो हि लोके (मूर्तिमन्तो) भावविशेषास्तावन्तः पुरुषे, यावन्तः पुरुषे तावन्तो लोके; इत्येवंवादिनं भगवन्तमात्रेयमग्निवेश उवाच- नैतावता वाक्येनोक्तं वाक्यार्थमवगाहामहे, भगवता बुद्ध्या भूयस्तरमतोऽनुव्याख्यायमानं शुश्रूषामह इति||३||" audio={r3}/>

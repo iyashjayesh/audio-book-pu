@@ -26,11 +26,14 @@ import r22 from '../../../../assests/Audio/book2audio/ch5/C5S17.mp3'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/nidanasthana/5.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch2/ch5.aac'
+
 const Book2ch5 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातः कुष्ठनिदानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२|| " audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="सप्त द्रव्याणि कुष्ठानां प्रकृतिर्विकृतिमापन्नानि भवन्ति| तद्यथा- त्रयो दोषा वातपित्तश्लेष्माणः प्रकोपणविकृताः, दूष्याश्च शरीरधातवस्त्वङ्मांसशोणितलसीकाश्चतुर्धा दोषोपघातविकृता इति| एतत् सप्तानां सप्तधातुकमेवङ्गतमाजननं कुष्ठानाम्, अतःप्रभवाण्यभिनिर्वर्तमानानि केवलं शरीरमुपतपन्ति||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="न च किञ्चिदस्ति कुष्ठमेकदोषप्रकोपनिमित्तम्, अस्ति तु खलु समानप्रकृतीनामपि कुष्ठानां दोषांशांशविकल्पानुबन्धस्थानविभागेन वेदनावर्णसंस्थानप्रभावनामचिकित्सितविशेषः| स सप्तविधोऽष्टादशविधोऽपरिसङ्ख्येयविधो वा भवति| दोषा हि विकल्पनैर्विकल्प्यमाना विकल्पयन्ति विकारान्, अन्यत्रासाध्यभावात्| तेषां विकल्पविकारसङ्ख्यानेऽतिप्रसङ्गमभिसमीक्ष्य सप्तविधमेव कुष्ठविशेषमुपदेक्ष्यामः||४||" audio={r3}/>

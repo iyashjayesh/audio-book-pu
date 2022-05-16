@@ -30,11 +30,14 @@ import r26 from '../../../../assests/Audio/book3audio/ch7/c7slast.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/7.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch3/ch7.aac'
+
 const Book3ch7 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1, 2" sholk="अथातो व्याधितरूपीयं विमानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="इह खलु द्वौ पुरुषौ व्याधितरूपौ भवतः- गुरुव्याधितः, लघुव्याधितश्च| तत्र- गुरुव्याधित एकः सत्त्वबलशरीरसम्पदुपेतत्वाल्लघुव्याधित इव दृश्यते, लघुव्याधितोऽपरः सत्त्वादीनामधमत्वाद्गुरुव्याधित इव दृश्यते| तयोरकुशलाः केवलं चक्षुषैव रूपं दृष्ट्वाऽध्यवस्यन्तो व्याधिगुरुलाघवे विप्रतिपद्यन्ते||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="नहि ज्ञानावयवेन कृत्स्ने ज्ञेये विज्ञानमुत्पद्यते| विप्रतिपन्नास्तु खलु रोगज्ञाने उपक्रमयुक्तिज्ञाने चापि विप्रतिपद्यन्ते| ते यदा गुरुव्याधितं लघुव्याधितरूपमासादयन्ति, तदा तमल्पदोषं मत्वा संशोधनकालेऽस्मै मृदु संशोधनं प्रयच्छन्तो भूय एवास्य दोषानुदीरयन्ति| यदा तु लघुव्याधितं गुरुव्याधितरूपमासादयन्ति, तदा तं महादोषं मत्वा संशोधनकालेऽस्मै तीक्ष्णं संशोधनं प्रयच्छन्तो दोषानतिनिर्हृत्य शरीरमस्य क्षिण्वन्ति| एवमवयवेन ज्ञानस्य कृत्स्ने ज्ञेये ज्ञानमभिमन्यमानाः परिस्खलन्ति| विदितवेदितव्यास्तु भिषजः सर्वं सर्वथा यथासम्भवं परीक्ष्यं परीक्ष्याध्यवस्यन्तो न क्वचिदपि विप्रतिपद्यन्ते, यथेष्टमर्थमभिनिर्वर्तयन्ति चेति||४||" audio={r3}/>

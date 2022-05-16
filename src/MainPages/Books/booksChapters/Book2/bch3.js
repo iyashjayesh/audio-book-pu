@@ -22,11 +22,14 @@ import r18 from '../../../../assests/Audio/book2audio/ch3/C3S19.mp3'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/nidanasthana/3.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch2/ch3.mp3'
+
 const Book2ch3 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातो गुल्मनिदानं व्याख्यास्यामः||१||
 इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="इह खलु पञ्च गुल्मा भवन्ति; तद्यथा- वातगुल्मः, पित्तगुल्मः, श्लेष्मगुल्मो, निचयगुल्मः, शोणितगुल्म इति||३||" audio={r2}/>

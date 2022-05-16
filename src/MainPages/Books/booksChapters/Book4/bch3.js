@@ -36,6 +36,8 @@ import r27 from '../../../../assests/Audio/book4audio/ch3/c3s27.aac'
 import r28 from '../../../../assests/Audio/book4audio/ch3/last.aac'
 // import all from '../../../../assests/Audio/book4audio/all/b4ch3.aac'
 
+import All from '../../../../assests/Audio/AllMerged/ch4/ch3.mp3'
+
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/3.png'
 
@@ -45,6 +47,7 @@ const Book4ch3 = () => {
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
                 {/* <SingleAudioCard sholkno="All Shloka" sholk="All Shloka" audio={all}/> */}
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातः खुड्डिकां गर्भावक्रान्तिं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="पुरुषस्यानुपहतरेतसः स्त्रियाश्चाप्रदुष्टयोनिशोणितगर्भाशयाया यदा भवति संसर्गः ऋतुकाले, यदा चानयोस्तथायुक्ते संसर्गेशुक्रशोणितसंसर्गमन्तर्गर्भाशयगतं जीवोऽवक्रामति सत्त्वसम्प्रयोगात्तदा गर्भोऽभिनिर्वतेते, स सात्म्यरसोपयोगादरोगोऽभिवर्धते सम्यगुपचारैश्चोपचर्यमाणः, ततः प्राप्तकालः सर्वेन्द्रियोपपन्नः परिपूर्णशरीरो बलवर्णसत्त्वसंहननसम्पदुपेतः सुखेन जायतेसमुदयादेषां भावानां-मातृजश्चायं गर्भः पितृजश्चात्मजश्च सात्म्यजश्च रसजश्च, अस्ति च खलु सत्त्वमौपपादुकमिति होवाच भगवानात्रेयः||३||" audio={r3}/>

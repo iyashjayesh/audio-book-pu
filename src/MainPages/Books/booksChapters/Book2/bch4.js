@@ -60,11 +60,14 @@ import r56 from '../../../../assests/Audio/book2audio/ch4/C4S56.mp3'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/nidanasthana/4.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch2/ch4.mp3'
+
 const Book2ch4 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातः प्रमेहनिदानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="त्रिदोषकोपनिमित्ता विंशतिः प्रमेहा भवन्ति विकाराश्चापरेऽपरिसङ्ख्येयाः| तत्र यथा त्रिदोषप्रकोपः प्रमेहानभिनिर्वर्तयति तथाऽनुव्याख्यास्यामः||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="इह खलु निदानदोषदूष्यविशेषेभ्यो विकारविघातभावाभावप्रतिविशेषा भवन्ति| यदा ह्येते त्रयो निदानादिविशेषाः परस्परं नानुबध्नन्त्यथवा कालप्रकर्षादबलीयांसोऽथवाऽनुबध्नन्ति न तदा विकाराभिनिर्वृत्तिः, चिराद्वाऽप्यभिनिर्वर्तन्ते, तनवो वा भवन्त्ययथोक्तसर्वलिङ्गा वा; विपर्यये विपरीताः; इति सर्वविकारविघातभावाभावप्रतिविशेषाभिनिर्वृत्तिहेतुर्भवत्युक्तः||४|| " audio={r3}/>

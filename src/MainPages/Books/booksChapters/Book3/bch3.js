@@ -46,11 +46,14 @@ import r42 from '../../../../assests/Audio/book3audio/ch3/c3slast.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/3.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch3/ch3.aac'
+
 const Book3ch3 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातो जनपदोद्ध्वंसनीयं विमानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="जनपदमण्डले पञ्चालक्षेत्रे द्विजातिवराध्युषिते काम्पिल्यराजधान्यां भगवान् पुनर्वसुरात्रेयोऽन्तेवासिगणपरिवृतः पश्चिमे घर्ममासे गङ्गातीरे वनविचारमनुविचरञ्छिष्यमग्निवेशमब्रवीत्||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="दृश्यन्ते हि खलु सौम्य! नक्षत्रग्रहगणचन्द्रसूर्यानिलानलानां दिशां चाप्रकृतिभूतानामृतुवैकारिका भावाः, अचिरादितो भूरपि च न यथावद्रसवीर्यविपाकप्रभावमोषधीनां प्रतिविधास्यति, तद्वियोगाच्चातङ्कप्रायता नियता| तस्मात् प्रागुद्ध्वंसात् प्राक् च भूमेर्विरसीभावादुद्धरध्वं सौम्य! भैषज्यानि यावन्नोपहतरसवीर्यविपाकप्रभावाणि भवन्ति| वयं चैषां रसवीर्यविपाकप्रभावानुपयोक्ष्यामहे ये चास्माननुकाङ्क्षन्ति, यांश्च वयमनुकाङ्क्षामः| न हि सम्यगुद्धृतेषु सौम्य! भैषज्येषु सम्यग्विहितेषु सम्यक् चावचारितेषु जनपदोद्ध्वंसकराणां विकाराणां किञ्चित् प्रतीकारगौरवं भवति||४||" audio={r3}/>

@@ -40,12 +40,15 @@ import r35 from '../../../../assests/Audio/book4audio/ch6/last.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/shareerasthana/6.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch4/ch6.mp3'
+
 const Book4ch6 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
                 {/* <SingleAudioCard sholkno="All Shloka" sholk="All Shloka" audio={all}/> */}
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1" sholk="अथातः शरीरविचयं शारीरं व्याख्यास्यामः||१||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 2" sholk="इति ह स्माह भगवानात्रेयः||२||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="शरीरविचयः शरीरोपकारार्थमिष्यते| ज्ञात्वा हि शरीरतत्त्वं शरीरोपकारकरेषु भावेषु ज्ञानमुत्पद्यते| तस्माच्छरीरविचयं प्रशंसन्ति कुशलाः||३||" audio={r3}/>

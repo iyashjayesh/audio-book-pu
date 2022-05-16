@@ -36,11 +36,14 @@ import r32 from '../../../../assests/Audio/book3audio/ch5/c5slast.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/5.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch3/ch5.aac'
+
 const Book3ch5 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1, 2" sholk="अथातः स्रोतसां विमानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="यावन्तः पुरुषे मूर्तिमन्तो भावविशेषास्तावन्त एवास्मिन् स्रोतसां प्रकारविशेषाः| सर्वे हि भावा पुरुषे नान्तरेण स्रोतांस्यभिनिर्वर्तन्ते, क्षयं वाऽप्यभिगच्छन्ति| स्रोतांसि खलु परिणाममापद्यमानानां धातूनामभिवाहीनि भवन्त्ययनार्थेन||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4, 5" sholk="अपि चैके स्रोतसामेव समुदयं पुरुषमिच्छन्ति, सर्वगतत्वात् सर्वसरत्वाच्च दोषप्रकोपणप्रशमनानाम्| न त्वेतदेवं, यस्य हि स्रोतांसि, यच्च वहन्ति, यच्चावहन्ति, यत्र चावस्थितानि, सर्वं तदन्यत्तेभ्यः||४|| अतिबहुत्वात् खलु केचिदपरिसङ्ख्येयान्याचक्षते स्रोतांसि, परिसङ्ख्येयानि पुनरन्ये||५||" audio={r3}/>

@@ -48,11 +48,14 @@ import r44 from '../../../../assests/Audio/book2audio/ch8/C8S45.mp3'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/nidanasthana/8.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch2/ch8.mp3'
+
 const Book2ch8 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातोऽपस्मारनिदानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="इह खलु चत्वारोऽपस्मारा भवन्ति वातपित्तकफसन्निपातनिमित्ताः||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="त एवंविधानां प्राणभृतां क्षिप्रमभिनिर्वर्तन्ते; तद्यथा- रजस्तमोभ्यामुपहतचेतसामुद्भ्रान्तविषमबहुदोषाणां समलविकृतोपहितान्यशुचीन्यभ्यवहारजातानि वैषम्ययुक्तेनोपयोगविधिनोपयुञ्जानानां तन्त्रप्रयोगमपि च विषममाचरतामन्याश्च शरीरचेष्टा विषमाः समाचरतामत्युपक्षयाद्वा [१] दोषाः प्रकुपिता रजस्तमोभ्यामुपहतचेतसामन्तरात्मनः श्रेष्ठतममायतनं हृदयमुपसृत्योपरि तिष्ठन्ते, तथेन्द्रियायतनानि च|

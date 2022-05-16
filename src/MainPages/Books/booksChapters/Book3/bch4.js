@@ -17,11 +17,14 @@ import r13 from '../../../../assests/Audio/book3audio/ch4/c4slast.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/4.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch3/ch4.aac'
+
 const Book3ch4 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातस्त्रिविधरोगविशेषविज्ञानीयं विमानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="त्रिविधं खलु रोगविशेषविज्ञानं भवति; तद्यथा आप्तोपदेशः, प्रत्यक्षम्, अनुमानं चेति||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="तत्राप्तोपदेशो नामाप्तवचनम्| आप्ता ह्यवितर्कस्मृतिविभागविदो निष्प्रीत्युपतापदर्शिनश्च| तेषामेवङ्गुणयोगाद्यद्वचनं तत् प्रमाणम्| अप्रमाणं पुनर्मत्तोन्मत्तमूर्खरक्तदुष्टादुष्टवचनमिति; प्रत्यक्षं तु खलु तद्यत् स्वयमिन्द्रियैर्मनसा चोपलभ्यते| अनुमानं खलु तर्को युक्त्यपेक्षः||४||" audio={r3}/>

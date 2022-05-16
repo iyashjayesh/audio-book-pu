@@ -23,11 +23,14 @@ import r19 from '../../../../assests/Audio/book3audio/ch2/c2slast.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/2.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch3/ch2.aac'
+
 const Book3ch2 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातस्त्रिविधकुक्षीयं विमानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="त्रिविधं कुक्षौ स्थापयेदवकाशांशमाहारस्याहारमुपयुञ्जानः; तद्यथा- एकमवकाशांशं मूर्तानामाहारविकाराणाम्, एकं द्रवाणाम्, एकं पुनर्वातपित्तश्लेष्मणाम्; एतावतीं ह्याहारमात्रामुपयुञ्जानो नामात्राहारजं किञ्चिदशुभं प्राप्नोति||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="न च केवलं मात्रावत्त्वादेवाहारस्य कृत्स्नमाहारफलसौष्ठवमवाप्तुं शक्यं, प्रकृत्यादीनामष्टानामाहारविधिविशेषायतनानां प्रविभक्तफलत्वात्||४||" audio={r3}/>

@@ -46,11 +46,14 @@ import r42 from '../../../../assests/Audio/book3audio/ch1/c1slast.aac'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/vimanasthana/1.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch3/ch1.aac'
+
 const Book3ch1 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथातो रसविमानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="इह खलु व्याधीनां निमित्तपूर्वरूपरूपोपशयसङ्ख्याप्राधान्यविधिविकल्प बलकालविशेषाननुप्रविश्यानन्तरं  दोषभेषजदेशकालबलशरीरसाराहारसात्म्यसत्त्वप्रकृतिवयसां  मानमवहितमनसा यथावज्ज्ञेयं भवति भिषजा, दोषादिमानज्ञानायत्तत्वात् क्रियायाः| न ह्यमानज्ञो दोषादीनां भिषग् व्याधिनिग्रहसमर्थो भवति| तस्माद्दोषादिमानज्ञानार्थं विमानस्थानमुपदेक्ष्यामोऽग्निवेश!||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="तत्रादौ रसद्रव्यदोषविकारप्रभावान् वक्ष्यामः| रसास्तावत् षट्- मधुराम्ललवणकटुतिक्तकषायाः| ते सम्यगुपयुज्यमानाः शरीरं यापयन्ति, मिथ्योपयुज्यमानास्तु खलु दोषप्रकोपायोपकल्पन्ते||४||" audio={r3}/>

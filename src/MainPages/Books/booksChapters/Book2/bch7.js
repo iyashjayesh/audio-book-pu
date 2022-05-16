@@ -30,11 +30,14 @@ import r26 from '../../../../assests/Audio/book2audio/ch7/C7S25.mp3'
 import SingleAudioCard from '../../../../globalComponents/SingleAudioCard'
 import sliderImg from '../../../../assests/book-ch-img/Audio-Book-PU/nidanasthana/7.png'
 
+import All from '../../../../assests/Audio/AllMerged/ch2/ch7.mp3'
+
 const Book2ch7 = () => {
     return (
         <div className="class-wrapper">
             <BookSlider img={sliderImg}/>
             <div className="text-center card-holder-custom">
+                <SingleAudioCard sholkno="All Shloks" sholk="" audio={All} />
                 <SingleAudioCard sholkno="Shloka 1,2" sholk="अथात उन्मादनिदानं व्याख्यास्यामः||१|| इति ह स्माह भगवानात्रेयः||२||" audio={r1}/>
                 <SingleAudioCard sholkno="Shloka 3" sholk="इह खलु पञ्चोन्मादा भवन्ति; तद्यथा- वातपित्तकफसन्निपातागन्तुनिमित्ताः||३||" audio={r2}/>
                 <SingleAudioCard sholkno="Shloka 4" sholk="तत्र दोषनिमित्ताश्चत्वारः पुरुषाणामेवंविधानां क्षिप्रमभिनिर्वर्तन्ते; तद्यथा- भीरूणामुपक्लिष्टसत्त्वानामुत्सन्नदोषाणां समलविकृतोपहितान्यनुचितान्याहारजातानि वैषम्ययुक्तेनोपयोगविधिनोपयुञ्जानानां तन्त्रप्रयोगमपि विषममाचरतामन्याश्च शरीरचेष्टा विषमाः समाचरतामत्युपक्षीणदेहानां व्याधिवेगसमुद्भ्रमितानामुपहतमनसां [१] वा कामक्रोधलोभहर्षभयमोहायासशोकचिन्तोद्वेगादिभिर्भूयोऽभिघाताभ्याहतानां वा मनस्युपहते बुद्धौ च प्रचलितायामभ्युदीर्णा [२] दोषाः प्रकुपिता हृदयमुपसृत्य मनोवहानि स्रोतांस्यावृत्य जनयन्त्युन्मादम्||४|" audio={r3}/>
